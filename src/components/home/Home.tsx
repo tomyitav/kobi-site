@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as classnames from 'classnames'
 import * as css from './Home.css'
-import {HeaderImage} from "./header-image/HeaderImage";
+import {HeaderImage} from "../header-image/HeaderImage";
 
 export const Home = props =>
   <div className={classnames('test', css.home)}>

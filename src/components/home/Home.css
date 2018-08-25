@@ -1,4 +1,4 @@
-@import 'Color.css';
+@import '../Color.css';
 
 .home {
   /*color: var(--colorPrimary);*/

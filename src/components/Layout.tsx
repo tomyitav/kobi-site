@@ -41,7 +41,7 @@ export class Layout extends React.Component<{}, {}> {
         </Head>
         <main>
             <Header/>
-            <div className="container">
+            <div className="container-fluid">
                 {children}
             </div>
             <Footer/>

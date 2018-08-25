@@ -1,5 +1,5 @@
 import * as React from 'react'
-import * as css from '../src/components/Home.css'
+import * as css from '../src/components/home/Home.css'
 import {Layout} from '../src/components/Layout'
 
 export default props =>
