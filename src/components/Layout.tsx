@@ -1,6 +1,6 @@
 import * as React from 'react'
 import {Header} from './Header'
-import {Footer} from './Footer'
+import {Footer} from './footer/Footer'
 import Head from 'next/head'
 
 export class Layout extends React.Component<{}, {}> {
@@ -13,6 +13,14 @@ export class Layout extends React.Component<{}, {}> {
         #layout {
           direction: rtl;
           font-family: Arial;
+        }
+        .navbar {
+           width: 100%;
+        }
+
+        .navbar-brand {
+            margin-right: 0px !important;
+            background-color: #333333;
         }
         `}
           </style>
@@ -32,11 +40,11 @@ export class Layout extends React.Component<{}, {}> {
                     crossOrigin="anonymous"></script>
         </Head>
         <main>
+            <Header/>
             <div className="container">
-                <Header/>
                 {children}
-                <Footer/>
             </div>
+            <Footer/>
         </main>
       </div>
     )
