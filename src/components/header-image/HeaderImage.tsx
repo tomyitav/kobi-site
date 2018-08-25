@@ -9,18 +9,6 @@ export class HeaderImage extends React.Component<HeaderImageProps, {}> {
       if(albumUrl) {
           return (
               <div>
-                  {/*language=PostCSS*/}
-                  <style jsx> {`
-                   .img-fluid {
-                        height: 15rem;
-                        display: block;
-                        margin-left: auto;
-                        margin-right: auto;
-                        width: 98%;
-                        margin-bottom: 1vh;
-                    }
-                  `}
-                  </style>
                   <a href={albumUrl} target="_blank">
                       <img src={location} className="img-fluid"/>
                   </a>
@@ -31,18 +19,6 @@ export class HeaderImage extends React.Component<HeaderImageProps, {}> {
       else {
           return (
           <div>
-              {/*/!*language=PostCSS*!/*/}
-              {/*<style jsx> {`*/}
-                   {/*.img-fluid {*/}
-                        {/*height: 15rem;*/}
-                        {/*display: block;*/}
-                        {/*margin-left: auto;*/}
-                        {/*margin-right: auto;*/}
-                        {/*width: 98%;*/}
-                        {/*margin-bottom: 1vh;*/}
-                    {/*}*/}
-                  {/*`}*/}
-              {/*</style>*/}
               <a>
                   <img src={location} className={classnames('img-fluid', css["img-fluid"])}/>
               </a>

@@ -8,8 +8,8 @@ export class Layout extends React.Component<{}, {}> {
     const {children} = this.props
     return (
       <div id="layout">
-          {/*language=PostCSS*/}
-          <style jsx global>{`//global stylesheet
+      {/*language=PostCSS*/}
+      <style jsx global>{`//global stylesheet
         #layout {
           direction: rtl;
           font-family: Arial;
