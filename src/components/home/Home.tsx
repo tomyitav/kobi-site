@@ -7,5 +7,5 @@ import {ResidenceSide} from "../side-bars/Residence/ResidenceSide";
 export const Home = props =>
   <div className={classnames('test', css.home)}>
     <HeaderImage location='/static/kobi-final-logo.jpg'/>
-    <ResidenceSide header="מגורים"/>
+    <ResidenceSide header="מגורים" selected={1}/>
   </div>

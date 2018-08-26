@@ -6,10 +6,20 @@ export const Nav = props =>
         {/*language=PostCSS*/}
         <style jsx> {`
         * {
-          font-size: 1.2rem;
+          font-size: 1.3rem;
+        }
+
+        .navbar {
+            border-bottom: 2px solid black;
         }
       `}
         </style>
+        {/*<style jsx> {`*/}
+        {/*.nav {*/}
+            {/*border-bottom: 1px solid;*/}
+        {/*}*/}
+      {/*`}*/}
+        {/*</style>*/}
         <nav className="navbar navbar-light bg-faded">
             <Link className="nav-item" href="/">אודות</Link>
             <Link className="nav-item" href="/SSR">צוות</Link>

@@ -22,6 +22,12 @@ export class Layout extends React.Component<{}, {}> {
             margin-right: 0px !important;
             background-color: #333333;
         }
+
+        .SelectedItem
+        {
+            color: #9400D3;
+            font-weight: bold;
+        }
         `}
           </style>
         <Head>
