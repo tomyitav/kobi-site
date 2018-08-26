@@ -10,7 +10,7 @@ export const Nav = props =>
         }
 
         .navbar {
-            border-bottom: 2px solid black;
+            border-bottom: 2px solid #6d6d95;
         }
       `}
         </style>
@@ -46,7 +46,7 @@ export const Nav = props =>
             <Link className="nav-item" href="/ModuleCss">פרויקטים ממשרד קודם</Link>
             <Link className="nav-item" href="/StyledJsx">צור קשר</Link>
             <Link className="navbar-header" href="/">
-                <img className="d-none d-lg-block" src="/static/kobi-final-logo.jpg" width="320" height="70"
+                <img className="d-none d-lg-block" src="/static/kobi-final-logo.jpg" width="290" height="50"
                      alt="עמוד הבית"/>
             </Link>
         </nav>

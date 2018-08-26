@@ -10,7 +10,7 @@ export class ResidenceSide extends React.Component<ResidenceSideProps, {}> {
     render() {
       const {header} = this.props;
           return (
-          <div>
+          <div id="SideMenu" className="col-sm-3">
               {/*language=PostCSS*/}
               <style jsx>{`
                 #SideMenu
@@ -18,12 +18,11 @@ export class ResidenceSide extends React.Component<ResidenceSideProps, {}> {
                     text-align: right;
                 }
                 ul {
-                    margin-right: -1rem;
+                    // margin-right: -1rem;
                 }
                 `}
               </style>
-              <div id="SideMenu" className="col-sm-3">
-                  <div className="jumbotron">
+                  <div>
                   <h4>{header}</h4>
                   <ul>
                       <li>
@@ -73,7 +72,6 @@ export class ResidenceSide extends React.Component<ResidenceSideProps, {}> {
                       </li>
                   </ul>
                   </div>
-              </div>
           </div>
           )
 
