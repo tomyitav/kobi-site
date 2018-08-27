@@ -29,7 +29,7 @@ export const Nav = props =>
                 <div className="dropdown-menu" aria-labelledby="Preview">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link className="dropdown-item" href="/SSR">מגורים</Link>
+                            <Link className="dropdown-item" href="/Residence">מגורים</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="dropdown-item" href="/SSR">התחדשות עירונית</Link>
