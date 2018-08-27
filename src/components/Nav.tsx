@@ -21,33 +21,35 @@ export const Nav = props =>
       {/*`}*/}
         {/*</style>*/}
         <nav className="navbar navbar-light bg-faded">
-            <Link className="nav-item" href="/">אודות</Link>
-            <Link className="nav-item" href="/SSR">צוות</Link>
+            <Link href="/"><a className="nav-item">אודות</a></Link>
+            <Link href="/SSR"><a className="nav-item">צוות</a></Link>
             <div className="nav-item dropdown">
                 <a className="dropdown-toggle" data-toggle="dropdown" id="Preview" href="residence.html" role="button"
                    aria-haspopup="true" aria-expanded="false">פרויקטים</a>
                 <div className="dropdown-menu" aria-labelledby="Preview">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link className="dropdown-item" href="/Residence">מגורים</Link>
+                            <Link href="/Residence"><a className="dropdown-item">מגורים</a></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="dropdown-item" href="/SSR">התחדשות עירונית</Link>
+                            <Link href="/SSR"><a className="dropdown-item">התחדשות עירונית</a></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="dropdown-item" href="/SSR">מלונאות</Link>
+                            <Link href="/SSR"><a className="dropdown-item">מלונאות</a></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="dropdown-item" href="/SSR">מבני ציבור ומשרדים</Link>
+                            <Link href="/SSR"><a className="dropdown-item">מבני ציבור ומשרדים</a></Link>
                         </li>
                     </ul>
                 </div>
             </div>
-            <Link className="nav-item" href="/ModuleCss">פרויקטים ממשרד קודם</Link>
-            <Link className="nav-item" href="/StyledJsx">צור קשר</Link>
-            <Link className="navbar-header" href="/">
+            <Link href="/ModuleCss"><a className="nav-item">פרויקטים ממשרד קודם</a></Link>
+            <Link href="/StyledJsx"><a className="nav-item">צור קשר</a></Link>
+            <Link href="/">
+                <a className="navbar-header">
                 <img className="d-none d-lg-block" src="/static/kobi-final-logo.jpg" width="290" height="50"
                      alt="עמוד הבית"/>
+                </a>
             </Link>
         </nav>
     </div>
