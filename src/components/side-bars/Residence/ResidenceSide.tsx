@@ -3,6 +3,7 @@ import {ResidenceSideProps} from "./ResidenceSideProps";
 import isSelected from "../../../services/selected-item";
 import {SideProject} from "../types/SideProject";
 import residenceProjects from "./residence-projects-list";
+import Link from 'next/link'
 
 export class ResidenceSide extends React.Component<ResidenceSideProps, {}> {
     render() {
@@ -14,8 +15,9 @@ export class ResidenceSide extends React.Component<ResidenceSideProps, {}> {
                         projects.map((project) => {
                             return (
                                 <li>
-                                    <a href={project.location}
-                                       className={isSelected(project.name, this.props.selectedName)}>{project.name}</a>
+                                    <Link href={project.location}>
+                                        <a className={isSelected(project.name, this.props.selectedName)}>{project.name}</a>
+                                    </Link>
                                 </li>)
                         })
                     }
