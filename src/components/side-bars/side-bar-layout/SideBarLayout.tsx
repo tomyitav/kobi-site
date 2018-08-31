@@ -13,6 +13,7 @@ export class SideBarLayout extends React.Component<SideBarLayoutProps, {}> {
                     #SideMenu
                     {
                         text-align: right;
+                        padding-bottom: 2rem
                     }
                     ul {
                         margin-right: -1rem;
