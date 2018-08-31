@@ -1,9 +1,9 @@
 import * as React from 'react'
-import {HeaderImageProps} from "./HeaderImageProps";
-import * as css from './HeaderImage.css'
+import {SimpleHeaderImageProps} from "./SimpleHeaderImageProps";
+import * as css from '../HeaderImage.css'
 import * as classnames from "classnames";
 
-export class HeaderImage extends React.Component<HeaderImageProps, {}> {
+export class SimpleHeaderImage extends React.Component<SimpleHeaderImageProps, {}> {
     render() {
       const {location, albumUrl} = this.props;
       if(albumUrl) {

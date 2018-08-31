@@ -1,4 +1,4 @@
-export interface HeaderImageProps {
+export interface SimpleHeaderImageProps {
     location: string,
     albumUrl?: string
 }
