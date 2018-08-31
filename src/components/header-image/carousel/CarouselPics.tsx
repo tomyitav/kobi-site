@@ -10,7 +10,9 @@ export class CarouselPics extends React.Component<{}, {}> {
         const settings = {
             dots: true,
             infinite: true,
-            speed: 500,
+            speed: 1000,
+            autoplay: true,
+            autoplaySpeed: 15000,
             slidesToShow: 1,
             slidesToScroll: 1
         };
