@@ -9,7 +9,6 @@ export class ResidenceSide extends React.Component<ResidenceSideProps, {}> {
     }
 
     render() {
-      const {header} = this.props;
           return (
           <div id="SideMenu" className="col-sm-3">
               <div>
