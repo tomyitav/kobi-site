@@ -3,10 +3,10 @@ import {Layout} from '../src/components/Layout'
 import {HeaderImage} from "../src/components/header-image/HeaderImage";
 import {ResidenceSide} from "../src/components/side-bars/Residence/ResidenceSide";
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
-import {HatsrotHaneviim} from "../src/components/content-frames/hatsrot-haneviim/HatsrotHaneviim";
+import {HatsrotHaneviimContent} from "../src/components/content-frames/hatsrot-haneviim/HatsrotHaneviimContent";
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
 
-export default class Residence extends React.Component {
+export default class HatsrotHaneviim extends React.Component {
   render() {
     return (
       <Layout>
@@ -17,7 +17,7 @@ export default class Residence extends React.Component {
                       <ResidenceSide selectedName="חצרות הנביאים"/>
                   </SideBarLayout>
                   <ContentLayout header="פרטים">
-                      <HatsrotHaneviim/>
+                      <HatsrotHaneviimContent/>
                   </ContentLayout>
               </div>
           </div>

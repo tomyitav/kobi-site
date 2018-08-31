@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export const HatsrotHaneviim = props =>
+export const HatsrotHaneviimContent = props =>
     <ul>
 
         <li>מזמין העבודה: אפריקה ישראל מגורים בע"מ, ורמגור נכסים בע"מ</li>

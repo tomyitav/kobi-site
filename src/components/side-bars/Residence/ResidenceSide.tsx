@@ -2,24 +2,16 @@ import * as React from 'react'
 import {ResidenceSideProps} from "./ResidenceSideProps";
 import isSelected from "../../../services/selected-item";
 import {SideProject} from "../types/SideProject";
+import residenceProjects from "./residence-projects-list";
 
 export class ResidenceSide extends React.Component<ResidenceSideProps, {}> {
     render() {
-        const projects: Array<SideProject> = [
-            {
-                name: "חצרות הנביאים",
-                location: 'residence.html'
-            },
-            {
-                name: "סביוני ארנונה",
-                location: 'residence.html'
-            },
-        ]
+        const projects: Array<SideProject> = residenceProjects;
         return (
             <div>
                 <ul>
                     {
-                        projects.map((project, i) => {
+                        projects.map((project) => {
                             return (
                                 <li>
                                     <a href={project.location}
