@@ -13,7 +13,6 @@ export default class Residence extends React.Component {
           <div>
               <HeaderImage location='/static/images/butic.jpg'/>
               <div className="row">
-                  {/*<ResidenceSide header="מגורים" selected={1}/>*/}
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selected={1}/>
                   </SideBarLayout>
