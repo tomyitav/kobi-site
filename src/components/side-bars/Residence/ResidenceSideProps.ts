@@ -1,3 +1,5 @@
+import {ResidenceType} from "../types/ResidenceType";
+
 export interface ResidenceSideProps {
-    selected?: number
+    selectedName?: ResidenceType
 }

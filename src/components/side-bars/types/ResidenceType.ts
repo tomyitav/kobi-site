@@ -1,0 +1,1 @@
+export type ResidenceType = "חצרות הנביאים" | "סביוני גן ארנונה"

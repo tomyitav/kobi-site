@@ -1,5 +1,5 @@
-const isSelected = (serialNumber: number, propId: number): string => {
-    return serialNumber === propId ? "SelectedItem" : "non-selected";
+const isSelected = (name: string, propName: string): string => {
+    return name === propName ? "SelectedItem" : "non-selected";
 }
 
 export default isSelected;

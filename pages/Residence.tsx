@@ -14,7 +14,7 @@ export default class Residence extends React.Component {
               <HeaderImage location='/static/images/butic.jpg'/>
               <div className="row">
                   <SideBarLayout header="מגורים">
-                      <ResidenceSide selected={1}/>
+                      <ResidenceSide selectedName="חצרות הנביאים"/>
                   </SideBarLayout>
                   <ContentLayout header="פרטים">
                       <HatsrotHaneviim/>
