@@ -19,7 +19,7 @@ const residenceProjects: Array<SideProject> = [
     },
     {
         name: "רסקו",
-        location: 'residence.html'
+        location: '/Rasco'
     },
     {
         name: "רמת השרון הירוקה",
