@@ -35,7 +35,7 @@ const residenceProjects: Array<SideProject> = [
     },
     {
         name: "רמות הירוקה",
-        location: 'residence.html'
+        location: '/Green'
     },
     {
         name: "פארק ארנונה",
