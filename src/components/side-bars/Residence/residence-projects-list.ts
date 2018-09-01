@@ -47,7 +47,7 @@ const residenceProjects: Array<SideProject> = [
     },
     {
         name: "בוטיק הנביאים",
-        location: 'residence.html'
+        location: '/Butic'
     },
     {
         name: "מרום הדס",
