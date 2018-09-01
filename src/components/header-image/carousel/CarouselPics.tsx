@@ -3,8 +3,9 @@ import Head from 'next/head'
 import Slider from "react-slick";
 import * as css from '../HeaderImage.css'
 import * as classnames from "classnames";
+import {CarouselPicsProps} from "./CarouselPicsProps";
 
-export class CarouselPics extends React.Component<{}, {}> {
+export class CarouselPics extends React.Component<CarouselPicsProps, {}> {
 
     render() {
         const settings = {
@@ -16,6 +17,7 @@ export class CarouselPics extends React.Component<{}, {}> {
             slidesToShow: 1,
             slidesToScroll: 1
         };
+        const {images} = this.props
           return (
               <div>
                   <Head>
@@ -24,27 +26,15 @@ export class CarouselPics extends React.Component<{}, {}> {
                       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
                   </Head>
                   <Slider {...settings}>
-                    <div>
-                        <img className={classnames('img-fluid', css["img-fluid"])} src="../../../../static/images/arnona.PNG"/>
-                    </div>
-                    <div>
-                        <img className={classnames('img-fluid', css["img-fluid"])} src="../../../../static/images/ganhair.PNG"/>
-                    </div>
-                    <div>
-                        <img className={classnames('img-fluid', css["img-fluid"])} src="../../../../static/images/neviim.PNG"/>
-                    </div>
-                    <div>
-                        <img className={classnames('img-fluid', css["img-fluid"])} src="../../../../static/images/butic.PNG"/>
-                    </div>
-                    <div>
-                        <img className={classnames('img-fluid', css["img-fluid"])} src="../../../../static/images/shamay.jpg"/>
-                    </div>
-                    <div>
-                        <img className={classnames('img-fluid', css["img-fluid"])} src="../../../../static/images/maromhadas.PNG"/>
-                    </div>
-                    <div>
-                        <img className={classnames('img-fluid', css["img-fluid"])} src="../../../../static/images/mishtaken.jpg"/>
-                    </div>
+                      {
+                          images.map((image, i) => {
+                              return (
+                                  <div>
+                                      <img className={classnames('img-fluid', css["img-fluid"])} src={"../../../../static/images/" + image}/>
+                                  </div>
+                              )
+                          })
+                      }
                   </Slider>
                   <br/>
               </div>

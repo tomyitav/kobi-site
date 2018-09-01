@@ -4,12 +4,13 @@ import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBar
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
 import {HomeContent} from "../src/components/content-frames/home/HomeContent";
 import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics";
+import homePics from "../src/components/header-image/carousel/carousel-pictures-lists/home-pics";
 
 export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-          <CarouselPics/>
+          <CarouselPics images={homePics}/>
           <div className="row">
               <SideBarLayout header="ברוכים הבאים"/>
               <ContentLayout header="אודות המשרד">
