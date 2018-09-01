@@ -39,11 +39,11 @@ const residenceProjects: Array<SideProject> = [
     },
     {
         name: "פארק ארנונה",
-        location: 'residence.html'
+        location: '/Park'
     },
     {
         name: "מחיר למשתכן - קסטל",
-        location: 'residence.html'
+        location: '/Mishtaken'
     },
     {
         name: "בוטיק הנביאים",
