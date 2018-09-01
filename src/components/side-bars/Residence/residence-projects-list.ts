@@ -3,7 +3,7 @@ import {SideProject} from "../types/SideProject";
 const residenceProjects: Array<SideProject> = [
     {
         name: "חצרות הנביאים",
-        location: '/Arnona'
+        location: '/HatsrotHaneviim'
     },
     {
         name: "סביוני גן ארנונה",
@@ -23,15 +23,15 @@ const residenceProjects: Array<SideProject> = [
     },
     {
         name: "רמת השרון הירוקה",
-        location: 'residence.html'
+        location: '/RamatHasharon'
     },
     {
         name: "גן העיר",
-        location: 'residence.html'
+        location: '/GanHair'
     },
     {
-        name: "מתחם מע\"צ – הנביאים",
-        location: 'residence.html'
+        name: 'מתחם מע"צ - הנביאים',
+        location: '/Maats'
     },
     {
         name: "רמות הירוקה",
