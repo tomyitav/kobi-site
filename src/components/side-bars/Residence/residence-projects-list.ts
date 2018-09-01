@@ -51,15 +51,15 @@ const residenceProjects: Array<SideProject> = [
     },
     {
         name: "מרום הדס",
-        location: 'residence.html'
+        location: '/Marom'
     },
     {
         name: "שמאי 10 - גולדן היל",
-        location: 'residence.html'
+        location: '/GoldenHill'
     },
     {
         name: "נופי בית וגן",
-        location: 'residence.html'
+        location: '/Nofey'
     },
 ]
 
