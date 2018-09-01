@@ -7,21 +7,21 @@ import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBar
 import {RamotContent} from "../src/components/content-frames/ramot/RamotContent";
 
 export default class Ramot extends React.Component {
-  render() {
-    return (
-      <Layout>
-          <div>
-              <SimpleHeaderImage location='/static/images/ramot.PNG'/>
-              <div className="row">
-                  <SideBarLayout header="מגורים">
-                      <ResidenceSide selectedName="מצפה רמות"/>
-                  </SideBarLayout>
-                  <ContentLayout header="פרטים">
-                      <RamotContent/>
-                  </ContentLayout>
-              </div>
-          </div>
-      </Layout>
-    )
-  }
+    render() {
+        return (
+            <Layout>
+                <div>
+                    <SimpleHeaderImage location='/static/images/ramot.PNG'/>
+                    <div className="row">
+                        <SideBarLayout header="מגורים">
+                            <ResidenceSide selectedName="מצפה רמות"/>
+                        </SideBarLayout>
+                        <ContentLayout header="פרטים">
+                            <RamotContent/>
+                        </ContentLayout>
+                    </div>
+                </div>
+            </Layout>
+        )
+    }
 }
