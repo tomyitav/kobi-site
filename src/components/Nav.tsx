@@ -32,7 +32,7 @@ export const Nav = props =>
                             <Link href="/HatsrotHaneviim"><a className="dropdown-item">מגורים</a></Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/SSR"><a className="dropdown-item">התחדשות עירונית</a></Link>
+                            <Link href="/YuvalGanim"><a className="dropdown-item">התחדשות עירונית</a></Link>
                         </li>
                         <li className="nav-item">
                             <Link href="/SSR"><a className="dropdown-item">מלונאות</a></Link>
