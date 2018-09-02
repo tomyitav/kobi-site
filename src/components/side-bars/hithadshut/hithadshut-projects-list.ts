@@ -7,11 +7,11 @@ const hithadshutProjects: Array<SideProject> = [
     },
     {
         name: "טהון 4",
-        location: '/SavioneyGanArnona'
+        location: '/Tahun'
     },
     {
         name: "המקשר",
-        location: '/Arnona'
+        location: '/Hamekasher'
     },
 ]
 
