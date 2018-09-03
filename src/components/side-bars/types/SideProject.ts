@@ -1,8 +1,9 @@
 import {ResidenceType} from "./ResidenceType";
 import {HithadshutType} from "./HithadshutType";
 import {HotelsType} from "./HotelsType";
+import {PublicPlacesType} from "./PublicPlacesType";
 
 export interface SideProject {
     location: string,
-    name: ResidenceType | HithadshutType | HotelsType
+    name: ResidenceType | HithadshutType | HotelsType | PublicPlacesType
 }

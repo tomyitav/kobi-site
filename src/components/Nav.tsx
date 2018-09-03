@@ -38,7 +38,7 @@ export const Nav = props =>
                             <Link href="/SevenBows"><a className="dropdown-item">מלונאות</a></Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/SSR"><a className="dropdown-item">מבני ציבור ומשרדים</a></Link>
+                            <Link href="/ToratZeev"><a className="dropdown-item">מבני ציבור ומשרדים</a></Link>
                         </li>
                     </ul>
                 </div>
