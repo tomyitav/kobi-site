@@ -43,7 +43,7 @@ export const Nav = props =>
                     </ul>
                 </div>
             </div>
-            <Link href="/ModuleCss"><a className="nav-item">פרויקטים ממשרד קודם</a></Link>
+            <Link href="/Holyland"><a className="nav-item">פרויקטים ממשרד קודם</a></Link>
             <Link href="/StyledJsx"><a className="nav-item">צור קשר</a></Link>
             <Link href="/">
                 <a className="navbar-header">
