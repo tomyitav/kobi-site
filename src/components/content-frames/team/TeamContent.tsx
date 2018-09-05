@@ -22,6 +22,7 @@ export const TeamContent = () =>
                 <li>הילה פריטל</li>
             </ul>
             <br/>
+            <br/>
         </div>
         <div className="col-sm-3">
             <img src="/static/images/team.jpg" className="img-fluid rounded"/>
