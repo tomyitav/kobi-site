@@ -22,7 +22,7 @@ export const Nav = props =>
         {/*</style>*/}
         <nav className="navbar navbar-light bg-faded">
             <Link href="/"><a className="nav-item">אודות</a></Link>
-            <Link href="/SSR"><a className="nav-item">צוות</a></Link>
+            <Link href="/Manager"><a className="nav-item">צוות</a></Link>
             <div className="nav-item dropdown">
                 <a className="dropdown-toggle" data-toggle="dropdown" id="Preview" href="residence.html" role="button"
                    aria-haspopup="true" aria-expanded="false">פרויקטים</a>
