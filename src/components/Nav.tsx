@@ -44,7 +44,7 @@ export const Nav = props =>
                 </div>
             </div>
             <Link href="/Holyland"><a className="nav-item">פרויקטים ממשרד קודם</a></Link>
-            <Link href="/StyledJsx"><a className="nav-item">צור קשר</a></Link>
+            <Link href="/Contact"><a className="nav-item">צור קשר</a></Link>
             <Link href="/">
                 <a className="navbar-header">
                 <img className="d-none d-lg-block" src="/static/kobi-final-logo.jpg" width="290" height="50"
