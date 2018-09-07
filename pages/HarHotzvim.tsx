@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Layout} from '../src/components/Layout'
+import {Layout} from '../src/components/layout/Layout'
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
 import {SimpleHeaderImage} from "../src/components/header-image/simple-header-image/SimpleHeaderImage";
@@ -9,7 +9,7 @@ import {HarHotzvimContent} from "../src/components/content-frames/har-hotzvim/Ha
 export default class HarHotzvim extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout selectedLink="פרויקטים ממשרד קודם">
           <div>
               <SimpleHeaderImage location='/static/images/har_hotvim.PNG'/>
               <div className="row">

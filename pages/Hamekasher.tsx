@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Layout} from '../src/components/Layout'
+import {Layout} from '../src/components/layout/Layout'
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
 import {HithadshutSide} from "../src/components/side-bars/hithadshut/HithadshutSide";
@@ -10,7 +10,7 @@ import hamekasherPics from "../src/components/header-image/carousel/carousel-pic
 export default class Hamekasher extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout selectedLink="פרויקטים">
           <div>
               <CarouselPics images={hamekasherPics}/>
               <div className="row">

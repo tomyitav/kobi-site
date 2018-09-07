@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Layout} from '../src/components/Layout'
+import {Layout} from '../src/components/layout/Layout'
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
 import homePics from "../src/components/header-image/carousel/carousel-pictures-lists/home-pics";
@@ -10,7 +10,7 @@ import {ContactContent} from "../src/components/content-frames/contact/ContactCo
 export default class Manager extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout selectedLink="צור קשר">
           <div>
               <CarouselPics images={homePics}/>
               <div className="row">

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Layout} from '../src/components/Layout'
+import {Layout} from '../src/components/layout/Layout'
 import {SimpleHeaderImage} from "../src/components/header-image/simple-header-image/SimpleHeaderImage";
 import {ResidenceSide} from "../src/components/side-bars/Residence/ResidenceSide";
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
@@ -11,7 +11,7 @@ import maatsPics from "../src/components/header-image/carousel/carousel-pictures
 export default class Maats extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout selectedLink="פרויקטים">
           <div>
               <CarouselPics images={maatsPics}/>
               <div className="row">

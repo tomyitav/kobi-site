@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Layout} from '../src/components/Layout'
+import {Layout} from '../src/components/layout/Layout'
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
 import {TeamSide} from "../src/components/side-bars/team/TeamSide";
@@ -10,7 +10,7 @@ import {TeamContent} from "../src/components/content-frames/team/TeamContent";
 export default class Team extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout selectedLink="צוות">
           <div>
               <CarouselPics images={homePics}/>
               <div className="row">

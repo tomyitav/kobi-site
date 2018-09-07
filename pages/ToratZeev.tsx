@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Layout} from '../src/components/Layout'
+import {Layout} from '../src/components/layout/Layout'
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
 import {SimpleHeaderImage} from "../src/components/header-image/simple-header-image/SimpleHeaderImage";
@@ -9,7 +9,7 @@ import {ToratZeevContent} from "../src/components/content-frames/torat-zeev/Tora
 export default class ToratZeev extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout selectedLink="פרויקטים">
           <div>
               <SimpleHeaderImage location='/static/images/yeshiva.PNG'/>
               <div className="row">

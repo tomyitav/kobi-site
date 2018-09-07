@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Layout} from '../src/components/Layout'
+import {Layout} from '../src/components/layout/Layout'
 import {SimpleHeaderImage} from "../src/components/header-image/simple-header-image/SimpleHeaderImage";
 import {ResidenceSide} from "../src/components/side-bars/Residence/ResidenceSide";
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
@@ -9,7 +9,7 @@ import {ArnonaContent} from "../src/components/content-frames/arnona/ArnonaConte
 export default class Arnona extends React.Component {
   render() {
     return (
-      <Layout>
+      <Layout selectedLink="פרויקטים">
           <div>
               <SimpleHeaderImage location='/static/images/arnona.PNG'/>
               <div className="row">

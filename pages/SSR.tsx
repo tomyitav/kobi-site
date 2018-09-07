@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Layout} from '../src/components/Layout'
+import {Layout} from '../src/components/layout/Layout'
 
 export default class SSR extends React.Component<Props> {
   static async getInitialProps(context) {

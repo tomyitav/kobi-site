@@ -1,11 +1,12 @@
 import * as React from 'react'
-import {Header} from './Header'
-import {Footer} from './footer/Footer'
+import {Footer} from '../footer/Footer'
 import Head from 'next/head'
+import {Nav} from "../navbar/Nav";
+import {LayoutProps} from './LayoutProps'
 
-export class Layout extends React.Component<{}, {}> {
+export class Layout extends React.Component<LayoutProps, {}> {
   render() {
-    const {children} = this.props
+    const {children, selectedLink} = this.props
     return (
       <div id="layout">
       {/*language=PostCSS*/}
@@ -46,7 +47,9 @@ export class Layout extends React.Component<{}, {}> {
                     crossOrigin="anonymous"></script>
         </Head>
         <main>
-            <Header/>
+            <div>
+                <Nav selectedLink={selectedLink}/>
+            </div>
             <div className="container-fluid">
                 {children}
             </div>
