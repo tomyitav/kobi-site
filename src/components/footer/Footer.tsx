@@ -12,7 +12,7 @@ export const Footer = props =>
         </style>
         <nav className="navbar fixed-bottom navbar-brand">
             <ul className="nav navbar-nav mx-auto">
-                <a className="footer" href="#">כל הזכויות שמורות לקובי ייטב | קיבוץ מעלה החמישה, ד.נ. הרי יהודה, 90835</a>
+                <a className="footer" href="#">כל הזכויות שמורות לקובי ייטב</a>
             </ul>
         </nav>
     </div>

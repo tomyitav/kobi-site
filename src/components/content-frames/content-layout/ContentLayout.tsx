@@ -7,7 +7,7 @@ export class ContentLayout extends React.Component<ContentLayoutProps, {}> {
     render() {
       const {children, header} = this.props;
           return (
-          <div id="ContentFrame" className="col-sm-9">
+          <div id="ContentFrame" className="col-sm-9 col-8">
               {/*language=PostCSS*/}
               <style jsx>{`
                 #ContentFrame
