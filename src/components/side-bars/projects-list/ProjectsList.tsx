@@ -6,7 +6,15 @@ import Link from 'next/link'
 export const ProjectsList = (props: ProjectsListProps) => {
     const {projects, selectedName} = props
     return (
-        <ul>
+        <ul className="project-list">
+            {/*language=PostCSS*/}
+            <style jsx>{`
+                    .project-list
+                    {
+                        padding-right: 1.1rem;
+                    }
+                    `}
+            </style>
             {
                 projects.map((project) => {
                     return (

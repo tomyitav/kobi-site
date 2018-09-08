@@ -14,10 +14,7 @@ export class SideBarLayout extends React.Component<SideBarLayoutProps, {}> {
                     {
                         text-align: right;
                         padding-bottom: 2rem;
-                        margin-right: -0.8rem;
-                    }
-                    ul {
-                        margin-right: -1rem;
+                        // margin-right: -0.8rem;
                     }
                     `}
                   </style>
