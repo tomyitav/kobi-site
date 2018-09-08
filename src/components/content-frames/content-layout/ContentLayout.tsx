@@ -1,5 +1,6 @@
 import * as React from 'react'
 import {ContentLayoutProps} from "./ContentLayoutProps";
+import {ContentListContainer} from "../content-list-container/ContentListContainer";
 
 export class ContentLayout extends React.Component<ContentLayoutProps, {}> {
 
@@ -24,7 +25,10 @@ export class ContentLayout extends React.Component<ContentLayoutProps, {}> {
                 `}
                 </style>
                 <h2>{header}</h2>
-                {children}
+                <ContentListContainer>
+                    {children}
+                </ContentListContainer>
+
             </div>
         )
 
