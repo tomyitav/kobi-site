@@ -21,6 +21,10 @@ export const Nav = (props: NavbarProps) => {
         .navbar {
             border-bottom: 2px solid #6d6d95;
         }
+
+        .dropdown-menu li {
+            list-style-type: none;
+        }
       `}
             </style>
             <nav className="navbar navbar-expand-lg navbar-light bg-faded">
