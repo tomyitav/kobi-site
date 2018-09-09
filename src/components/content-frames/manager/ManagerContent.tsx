@@ -21,5 +21,6 @@ export const ManagerContent = () =>
         </div>
         <div className="col-sm-3">
             <img src="/static/images/kobi2.PNG" className="img-fluid rounded"/>
+            <br/>
         </div>
     </div>
