@@ -23,41 +23,42 @@ export const Nav = (props: NavbarProps) => {
         }
       `}
             </style>
-            {/*<style jsx> {`*/}
-            {/*.nav {*/}
-            {/*border-bottom: 1px solid;*/}
-            {/*}*/}
-            {/*`}*/}
-            {/*</style>*/}
-            <nav className="navbar navbar-light bg-faded">
-                <Link href="/"><a className={`nav-item ${indexClass}`}>אודות</a></Link>
-                <Link href="/Manager"><a className={`nav-item ${teamClass}`}>צוות</a></Link>
-                <div className="nav-item dropdown">
-                    <a className={`dropdown-toggle ${projectsClass}`} data-toggle="dropdown" id="Preview" href="residence.html"
-                       role="button"
-                       aria-haspopup="true" aria-expanded="false">פרויקטים</a>
-                    <div className="dropdown-menu" aria-labelledby="Preview">
-                        <ul className="navbar-nav ml-auto">
-                            <li className="nav-item">
-                                <Link href="/HatsrotHaneviim"><a className="dropdown-item">מגורים</a></Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link href="/YuvalGanim"><a className="dropdown-item">התחדשות עירונית</a></Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link href="/SevenBows"><a className="dropdown-item">מלונאות</a></Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link href="/ToratZeev"><a className="dropdown-item">מבני ציבור ומשרדים</a></Link>
-                            </li>
-                        </ul>
+            <nav className="navbar navbar-expand-lg navbar-light bg-faded">
+                <button className="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <Link href="/"><a className={`nav-link ${indexClass}`}>אודות</a></Link>
+                    <Link href="/Manager"><a className={`nav-link ${teamClass}`}>צוות</a></Link>
+                    <div className="nav-item dropdown">
+                        <a className={`dropdown-toggle nav-link ${projectsClass}`} data-toggle="dropdown" id="Preview" href="residence.html"
+                           role="button"
+                           aria-haspopup="true" aria-expanded="false">פרויקטים</a>
+                        <div className="dropdown-menu" aria-labelledby="Preview">
+                            <ul className="ml-auto">
+                                <li>
+                                    <Link href="/HatsrotHaneviim"><a className="dropdown-item">מגורים</a></Link>
+                                </li>
+                                <li>
+                                    <Link href="/YuvalGanim"><a className="dropdown-item">התחדשות עירונית</a></Link>
+                                </li>
+                                <li>
+                                    <Link href="/SevenBows"><a className="dropdown-item">מלונאות</a></Link>
+                                </li>
+                                <li>
+                                    <Link href="/ToratZeev"><a className="dropdown-item">מבני ציבור ומשרדים</a></Link>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                    <Link href="/Holyland"><a className={`nav-link ${previousClass}`}>פרויקטים ממשרד קודם</a></Link>
+                    <Link href="/Contact"><a className={`nav-link ${contactClass}`}>צור קשר</a></Link>
                 </div>
-                <Link href="/Holyland"><a className={`nav-item ${previousClass}`}>פרויקטים ממשרד קודם</a></Link>
-                <Link href="/Contact"><a className={`nav-item ${contactClass}`}>צור קשר</a></Link>
                 <Link href="/">
                     <a className="navbar-header">
-                        <img className="d-none d-lg-block" src="/static/kobi-final-logo.jpg" width="290" height="50"
+                        <img className="d-none d-sm-block" src="/static/kobi-final-logo.jpg" width="290" height="50"
                              alt="עמוד הבית"/>
                     </a>
                 </Link>
