@@ -18,13 +18,25 @@ const residenceProjects: Array<SideProject> = [
         location: '/Ramot'
     },
     {
+        name: "מצפה אלה",
+        location: '/Mitspe'
+    },
+    {
+        name: "מצפה חורש",
+        location: '/Horesh'
+    },
+    {
+        name: "רמת דניה",
+        location: '/RamatDenia'
+    },
+    {
         name: "רסקו",
         location: '/Rasco'
     },
-    {
-        name: "רמת השרון הירוקה",
-        location: '/RamatHasharon'
-    },
+    // {
+    //     name: "רמת השרון הירוקה",
+    //     location: '/RamatHasharon'
+    // },
     {
         name: "גן העיר",
         location: '/GanHair'
@@ -42,8 +54,12 @@ const residenceProjects: Array<SideProject> = [
         location: '/Park'
     },
     {
-        name: "מחיר למשתכן - קסטל",
+        name: "מחיר למשתכן - קסטל אזורים",
         location: '/Mishtaken'
+    },
+    {
+        name: "מחיר למשתכן - קסטל י.ד. ברזני",
+        location: '/MishtakenYD'
     },
     {
         name: "בוטיק הנביאים",

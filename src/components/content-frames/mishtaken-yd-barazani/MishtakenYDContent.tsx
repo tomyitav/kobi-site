@@ -1,17 +1,16 @@
 import * as React from 'react'
 
-export const MishtakenContent = props =>
+export const MishtakenYDContent = props =>
     <ul>
 
-        <li>יזם: חברת אזורים</li>
+        <li>יזם: י.ד. ברזני</li>
 
         <li>אדריכל הפרויקט:  אייל איצקין</li>
 
-        <li>היקף הפרויקט: 180 יח"ד</li>
+        <li>היקף הפרויקט: 277 יח"ד</li>
 
-        <li>היקף ביצוע: כ-145 מיליון ש"ח</li>
+        <li>היקף ביצוע: כ-180 מיליון ש"ח</li>
 
-        <li>הפרויקט משלב שטחי מסחר</li>
         <li>סטטוס הפרויקט: בביצוע. יושלם עד יוני 2020</li>
 
         <br />

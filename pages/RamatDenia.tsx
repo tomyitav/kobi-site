@@ -3,11 +3,11 @@ import {Layout} from '../src/components/layout/Layout'
 import {ResidenceSide} from "../src/components/side-bars/Residence/ResidenceSide";
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
-import {MishtakenContent} from "../src/components/content-frames/mishtaken/MishtakenContent";
 import mishtakenPics from "../src/components/header-image/carousel/carousel-pictures-lists/mishtaken-pics";
 import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics";
+import {RamatDeniaContent} from "../src/components/content-frames/ramat-denia/RamatDeniaContent";
 
-export default class Mishtaken extends React.Component {
+export default class RamatDenia extends React.Component {
   render() {
     return (
       <Layout selectedLink="פרויקטים">
@@ -15,10 +15,10 @@ export default class Mishtaken extends React.Component {
               <CarouselPics images={mishtakenPics}/>
               <div className="row">
                   <SideBarLayout header="מגורים">
-                      <ResidenceSide selectedName="מחיר למשתכן - קסטל אזורים"/>
+                      <ResidenceSide selectedName="רמת דניה"/>
                   </SideBarLayout>
                   <ContentLayout header="פרטים">
-                      <MishtakenContent/>
+                      <RamatDeniaContent/>
                   </ContentLayout>
               </div>
           </div>

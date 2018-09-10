@@ -6,6 +6,7 @@ import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBar
 import {MishtakenContent} from "../src/components/content-frames/mishtaken/MishtakenContent";
 import mishtakenPics from "../src/components/header-image/carousel/carousel-pictures-lists/mishtaken-pics";
 import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics";
+import {MitspeContent} from "../src/components/content-frames/mitzpe-ela/MitspeContent";
 
 export default class Mishtaken extends React.Component {
   render() {
@@ -15,10 +16,10 @@ export default class Mishtaken extends React.Component {
               <CarouselPics images={mishtakenPics}/>
               <div className="row">
                   <SideBarLayout header="מגורים">
-                      <ResidenceSide selectedName="מחיר למשתכן - קסטל אזורים"/>
+                      <ResidenceSide selectedName="מצפה אלה"/>
                   </SideBarLayout>
                   <ContentLayout header="פרטים">
-                      <MishtakenContent/>
+                      <MitspeContent/>
                   </ContentLayout>
               </div>
           </div>
