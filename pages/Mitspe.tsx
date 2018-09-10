@@ -7,13 +7,14 @@ import {MishtakenContent} from "../src/components/content-frames/mishtaken/Misht
 import mishtakenPics from "../src/components/header-image/carousel/carousel-pictures-lists/mishtaken-pics";
 import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics";
 import {MitspeContent} from "../src/components/content-frames/mitzpe-ela/MitspeContent";
+import homePics from "../src/components/header-image/carousel/carousel-pictures-lists/home-pics";
 
 export default class Mishtaken extends React.Component {
   render() {
     return (
       <Layout selectedLink="פרויקטים">
           <div>
-              <CarouselPics images={mishtakenPics}/>
+              <CarouselPics images={homePics}/>
               <div className="row">
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="מצפה אלה"/>

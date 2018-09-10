@@ -1,6 +1,5 @@
 const homePics: Array<string> = [
     'hatsrot/hatsrot1.jpg',
-    'ganhair2.jpg',
     'hatsrot/hatsrot6.jpg',
     'butic.PNG',
     'maats/maats1.jpg',
@@ -8,6 +7,7 @@ const homePics: Array<string> = [
     'maromhadas.PNG',
     'neviim.PNG',
     'ramot/ramot4.jpg',
+    'ganhair2.jpg',
     'savioney/savioney1.jpg',
 ];
 

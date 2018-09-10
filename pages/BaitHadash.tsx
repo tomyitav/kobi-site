@@ -4,10 +4,10 @@ import {ResidenceSide} from "../src/components/side-bars/Residence/ResidenceSide
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
 import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics";
-import {RamatDeniaContent} from "../src/components/content-frames/ramat-denia/RamatDeniaContent";
 import homePics from "../src/components/header-image/carousel/carousel-pictures-lists/home-pics";
+import {BaitHadashContent} from "../src/components/content-frames/bait-hadash/BaitHadashContent";
 
-export default class RamatDenia extends React.Component {
+export default class BaitHadash extends React.Component {
   render() {
     return (
       <Layout selectedLink="פרויקטים">
@@ -15,10 +15,10 @@ export default class RamatDenia extends React.Component {
               <CarouselPics images={homePics}/>
               <div className="row">
                   <SideBarLayout header="מגורים">
-                      <ResidenceSide selectedName="רמת דניה"/>
+                      <ResidenceSide selectedName="בית חדש"/>
                   </SideBarLayout>
                   <ContentLayout header="פרטים">
-                      <RamatDeniaContent/>
+                      <BaitHadashContent/>
                   </ContentLayout>
               </div>
           </div>

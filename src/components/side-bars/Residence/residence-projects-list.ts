@@ -30,6 +30,10 @@ const residenceProjects: Array<SideProject> = [
         location: '/RamatDenia'
     },
     {
+        name: "בית חדש",
+        location: '/BaitHadash'
+    },
+    {
         name: "רסקו",
         location: '/Rasco'
     },
@@ -68,6 +72,10 @@ const residenceProjects: Array<SideProject> = [
     {
         name: "מרום הדס",
         location: '/Marom'
+    },
+    {
+        name: 'ביתר עילית',
+        location: '/Beitar'
     },
     {
         name: "שמאי 10 - גולדן היל",
