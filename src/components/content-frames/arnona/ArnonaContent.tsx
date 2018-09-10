@@ -12,6 +12,7 @@ export const ArnonaContent = props =>
         <li>היקף הביצוע כ 200 מליון ₪ + מע"מ </li>
 
         <li>קבלן מבצע דניה סיבוס </li>
+        <li>הפרויקט הושלם ואוכלס</li>
 
         <br />
 
