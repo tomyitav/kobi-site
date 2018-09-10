@@ -1,7 +1,14 @@
 import * as React from 'react'
 
 export const ContactSide = () =>
-    <ul>
+    <ul className="contact-details">
+        <style jsx>{`
+                    .contact-details
+                    {
+                        padding-right: 1.1rem;
+                    }
+                    `}
+        </style>
         <li id="mail-content">
                     <span> מייל:
                     <a href="mailto:office1@yitav-eng.co.il"> office1@yitav-eng.co.il</a>
