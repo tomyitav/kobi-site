@@ -6,12 +6,20 @@ const publicPlacesProjects: Array<SideProject> = [
         location: '/Hamagresa'
     },
     {
-        name: "ישיבת תורת זאב",
-        location: '/ToratZeev'
+        name: "מגדל הרכבת",
+        location: '/MigdalRakevet'
+    },
+    {
+        name: "בית עופר",
+        location: '/Ofer'
     },
     {
         name: "כלמוביל",
         location: '/Colmobil'
+    },
+    {
+        name: "ישיבת תורת זאב",
+        location: '/ToratZeev'
     },
     {
         name: "ישיבת חברון",
