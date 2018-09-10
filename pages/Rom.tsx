@@ -1,24 +1,25 @@
 import * as React from 'react'
 import {Layout} from '../src/components/layout/Layout'
+import {ResidenceSide} from "../src/components/side-bars/Residence/ResidenceSide";
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
-import {PublicSide} from "../src/components/side-bars/public-places/PublicSide";
+import {GreenContent} from "../src/components/content-frames/green/GreenContent";
 import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics";
-import homePics from "../src/components/header-image/carousel/carousel-pictures-lists/home-pics";
-import {HamagresaContent} from "../src/components/content-frames/hamagresa/HamagresaContent";
+import greenPics from "../src/components/header-image/carousel/carousel-pictures-lists/green-pics";
+import {RomContent} from "../src/components/content-frames/rom-harama/RomContent";
 
-export default class Hamagresa extends React.Component {
+export default class Rom extends React.Component {
   render() {
     return (
       <Layout selectedLink="פרויקטים">
           <div>
-              <CarouselPics images={homePics}/>
+              <CarouselPics images={greenPics}/>
               <div className="row">
-                  <SideBarLayout header="מבני ציבור">
-                      <PublicSide selectedName="קסטל המגרסה"/>
+                  <SideBarLayout header="מגורים">
+                      <ResidenceSide selectedName="רום הרמה"/>
                   </SideBarLayout>
                   <ContentLayout header="פרטים">
-                      <HamagresaContent/>
+                      <RomContent/>
                   </ContentLayout>
               </div>
           </div>

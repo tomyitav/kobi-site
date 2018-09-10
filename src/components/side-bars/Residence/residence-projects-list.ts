@@ -54,6 +54,18 @@ const residenceProjects: Array<SideProject> = [
         location: '/Green'
     },
     {
+        name: "רום הרמה",
+        location: '/Rom'
+    },
+    {
+        name: "רפא",
+        location: '/Rafa'
+    },
+    {
+        name: "אלקבץ",
+        location: '/Elkabets'
+    },
+    {
         name: "פארק ארנונה",
         location: '/Park'
     },

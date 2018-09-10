@@ -1,24 +1,24 @@
 import * as React from 'react'
 import {Layout} from '../src/components/layout/Layout'
+import {ResidenceSide} from "../src/components/side-bars/Residence/ResidenceSide";
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
-import {PublicSide} from "../src/components/side-bars/public-places/PublicSide";
 import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics";
-import homePics from "../src/components/header-image/carousel/carousel-pictures-lists/home-pics";
-import {HamagresaContent} from "../src/components/content-frames/hamagresa/HamagresaContent";
+import greenPics from "../src/components/header-image/carousel/carousel-pictures-lists/green-pics";
+import {ElkabetsContent} from "../src/components/content-frames/elkabets/ElkabetsContent";
 
-export default class Hamagresa extends React.Component {
+export default class Elkabets extends React.Component {
   render() {
     return (
       <Layout selectedLink="פרויקטים">
           <div>
-              <CarouselPics images={homePics}/>
+              <CarouselPics images={greenPics}/>
               <div className="row">
-                  <SideBarLayout header="מבני ציבור">
-                      <PublicSide selectedName="קסטל המגרסה"/>
+                  <SideBarLayout header="מגורים">
+                      <ResidenceSide selectedName="אלקבץ"/>
                   </SideBarLayout>
                   <ContentLayout header="פרטים">
-                      <HamagresaContent/>
+                      <ElkabetsContent/>
                   </ContentLayout>
               </div>
           </div>
