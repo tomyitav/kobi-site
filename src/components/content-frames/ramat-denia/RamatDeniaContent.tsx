@@ -16,5 +16,5 @@ export const RamatDeniaContent = props =>
 
         <br />
 
-        <a href="https://goo.gl/photos/HWybXgfZT5Gr8HK46" target="_blank">קטלוג תמונות</a>
+        <a href="https://photos.app.goo.gl/1FuXjukpYYXxuqJh7" target="_blank">קטלוג תמונות</a>
     </ul>
