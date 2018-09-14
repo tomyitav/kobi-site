@@ -16,7 +16,7 @@ export default class Park extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="פארק ארנונה"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="פארק ארנונה">
                       <ParkContent/>
                   </ContentLayout>
               </div>

@@ -16,7 +16,7 @@ export default class Marom extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="מרום הדס"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="מרום הדס">
                       <MaromContent/>
                   </ContentLayout>
               </div>

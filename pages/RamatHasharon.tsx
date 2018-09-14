@@ -16,7 +16,7 @@ export default class RamatHasharon extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="רמת השרון הירוקה"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="רמת השרון הירוקה">
                       <RamatHasharonContent/>
                   </ContentLayout>
               </div>

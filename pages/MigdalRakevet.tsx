@@ -16,7 +16,7 @@ export default class MigdalRakevet extends React.Component {
                   <SideBarLayout header="מבני ציבור">
                       <PublicSide selectedName="מגדל הרכבת"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="מגדל הרכבת">
                       <MigdalRakevetContent/>
                   </ContentLayout>
               </div>

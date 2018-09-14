@@ -16,7 +16,7 @@ export default class HarHotzvim extends React.Component {
                   <SideBarLayout header="פרויקטים">
                       <PreviousSide selectedName="נכסי הר חוצבים"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="נכסי הר חוצבים">
                       <HarHotzvimContent/>
                   </ContentLayout>
               </div>

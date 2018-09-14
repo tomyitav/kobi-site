@@ -16,7 +16,7 @@ export default class Rasco extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="רסקו"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="רסקו">
                       <RascoContent/>
                   </ContentLayout>
               </div>

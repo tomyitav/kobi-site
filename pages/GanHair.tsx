@@ -17,7 +17,7 @@ export default class GanHair extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="גן העיר"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="גן העיר">
                       <GanHairContent/>
                   </ContentLayout>
               </div>

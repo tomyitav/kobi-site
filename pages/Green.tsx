@@ -17,7 +17,7 @@ export default class Green extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="רמות הירוקה"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="רמות הירוקה">
                       <GreenContent/>
                   </ContentLayout>
               </div>

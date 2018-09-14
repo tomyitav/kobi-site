@@ -17,7 +17,7 @@ export default class BaitHadash extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="בית חדש"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="בית חדש">
                       <BaitHadashContent/>
                   </ContentLayout>
               </div>

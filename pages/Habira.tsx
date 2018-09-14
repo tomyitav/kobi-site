@@ -16,7 +16,7 @@ export default class Habira extends React.Component {
                   <SideBarLayout header="מבני ציבור">
                       <PublicSide selectedName="אולפני הבירה"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="אולפני הבירה">
                       <HabiraContent/>
                   </ContentLayout>
               </div>

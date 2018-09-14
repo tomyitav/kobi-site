@@ -17,7 +17,7 @@ export default class Buses extends React.Component {
                   <SideBarLayout header="מבני ציבור">
                       <PublicSide selectedName="חניון ומסוף אוטובוסים"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="חניון ומסוף אוטובוסים">
                       <BusesContent/>
                   </ContentLayout>
               </div>

@@ -17,7 +17,7 @@ export default class Elkabets extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="אלקבץ"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="אלקבץ">
                       <ElkabetsContent/>
                   </ContentLayout>
               </div>

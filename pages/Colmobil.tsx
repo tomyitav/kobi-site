@@ -16,7 +16,7 @@ export default class Colmobil extends React.Component {
                   <SideBarLayout header="מבני ציבור">
                       <PublicSide selectedName="כלמוביל"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="כלמוביל">
                       <ColmobilContent/>
                   </ContentLayout>
               </div>

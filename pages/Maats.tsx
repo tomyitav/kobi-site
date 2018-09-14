@@ -18,7 +18,7 @@ export default class Maats extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName='מתחם מע"צ - הנביאים'/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header='מתחם מע"צ - הנביאים'>
                       <MaatsContent/>
                   </ContentLayout>
               </div>

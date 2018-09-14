@@ -17,7 +17,7 @@ export default class HatsrotHaneviim extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="חצרות הנביאים"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="חצרות הנביאים">
                       <HatsrotHaneviimContent/>
                   </ContentLayout>
               </div>

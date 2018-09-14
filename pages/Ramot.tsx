@@ -16,7 +16,7 @@ export default class Ramot extends React.Component {
                         <SideBarLayout header="מגורים">
                             <ResidenceSide selectedName="מצפה רמות"/>
                         </SideBarLayout>
-                        <ContentLayout header="פרטים">
+                        <ContentLayout header="מצפה רמות">
                             <RamotContent/>
                         </ContentLayout>
                     </div>

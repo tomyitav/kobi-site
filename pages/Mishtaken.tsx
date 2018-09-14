@@ -17,7 +17,7 @@ export default class Mishtaken extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="מחיר למשתכן - קסטל אזורים"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="מחיר למשתכן - קסטל אזורים">
                       <MishtakenContent/>
                   </ContentLayout>
               </div>

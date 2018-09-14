@@ -17,7 +17,7 @@ export default class GoldenHill extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="שמאי 10 - גולדן היל"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="שמאי 10 - גולדן היל">
                       <GoldenHillContent/>
                   </ContentLayout>
               </div>

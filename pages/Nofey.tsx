@@ -16,7 +16,7 @@ export default class Nofey extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="נופי בית וגן"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="נופי בית וגן">
                       <NofeyContent/>
                   </ContentLayout>
               </div>

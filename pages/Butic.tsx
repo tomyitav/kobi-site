@@ -17,7 +17,7 @@ export default class Butic extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="בוטיק הנביאים"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="בוטיק הנביאים">
                       <ButicContent/>
                   </ContentLayout>
               </div>

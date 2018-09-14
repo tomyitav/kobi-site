@@ -19,7 +19,7 @@ export default class Ofer extends React.Component {
                   <SideBarLayout header="מבני ציבור">
                       <PublicSide selectedName="בית עופר"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="בית עופר">
                       <OferContent/>
                   </ContentLayout>
               </div>

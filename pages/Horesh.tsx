@@ -17,7 +17,7 @@ export default class Horesh extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="מצפה חורש"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="מצפה חורש">
                       <MitspeHoreshContent/>
                   </ContentLayout>
               </div>

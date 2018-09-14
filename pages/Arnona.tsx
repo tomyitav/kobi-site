@@ -16,7 +16,7 @@ export default class Arnona extends React.Component {
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="סביוני ארנונה"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="סביוני ארנונה">
                       <ArnonaContent/>
                   </ContentLayout>
               </div>
