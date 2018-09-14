@@ -7,13 +7,14 @@ import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics
 import homePics from "../src/components/header-image/carousel/carousel-pictures-lists/home-pics";
 import {HamagresaContent} from "../src/components/content-frames/hamagresa/HamagresaContent";
 import {OferContent} from "../src/components/content-frames/ofer/OferContent";
+import oferPics from "../src/components/header-image/carousel/carousel-pictures-lists/ofer-pics";
 
 export default class Ofer extends React.Component {
   render() {
     return (
       <Layout selectedLink="פרויקטים">
           <div>
-              <CarouselPics images={homePics}/>
+              <CarouselPics images={oferPics}/>
               <div className="row">
                   <SideBarLayout header="מבני ציבור">
                       <PublicSide selectedName="בית עופר"/>

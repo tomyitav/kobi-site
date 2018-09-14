@@ -16,7 +16,7 @@ export const ProjectsList = (props: ProjectsListProps) => {
                     `}
             </style>
             {
-                projects.map((project) => {
+                projects.map((project, i) => {
                     return (
                         <li>
                             <Link href={project.location}>

@@ -8,4 +8,6 @@ export const OferContent = () =>
         <li>מיקום הפרויקט –אזור התעשיה גבעת שאול, ירושלים</li>
         <li>היקף ביצוע: כ- 140 מליון ₪</li>
         <li>סטטוס הפרויקט: נמצא בשלבי תכנון</li>
+        <br />
+        <a href="https://photos.app.goo.gl/9yWHLbXSHWf4s4Y97" target="_blank">קטלוג תמונות</a>
     </ul>

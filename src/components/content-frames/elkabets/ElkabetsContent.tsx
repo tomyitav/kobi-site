@@ -15,6 +15,6 @@ export const ElkabetsContent = () =>
 
         <br />
 
-        <a href="https://goo.gl/photos/icLutd8wU98jh7HH6" target="_blank">קטלוג תמונות</a>
+        <a href="https://photos.app.goo.gl/usxSyAmhEQihbs3B7" target="_blank">קטלוג תמונות</a>
 
     </ul>

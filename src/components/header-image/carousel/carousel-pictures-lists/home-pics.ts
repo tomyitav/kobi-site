@@ -7,7 +7,7 @@ const homePics: Array<string> = [
     'maromhadas.PNG',
     'neviim.PNG',
     'ramot/ramot4.jpg',
-    'ganhair2.jpg',
+    'hamekasher/hamekasher3.jpg',
     'savioney/savioney1.jpg',
 ];
 
