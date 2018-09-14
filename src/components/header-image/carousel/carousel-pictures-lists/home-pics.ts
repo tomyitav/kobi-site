@@ -9,6 +9,7 @@ const homePics: Array<string> = [
     'ramot/ramot4.jpg',
     'hamekasher/hamekasher3.jpg',
     'savioney/savioney1.jpg',
+    'rom/rom3.jpg',
 ];
 
 export default homePics;
