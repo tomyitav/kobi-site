@@ -15,5 +15,5 @@ export const BeitarContent = () =>
 
         <br />
 
-        <a href="https://goo.gl/photos/HWybXgfZT5Gr8HK46" target="_blank">קטלוג תמונות</a>
+        <a href="https://photos.app.goo.gl/9gjEEhDuCvYizp4S7" target="_blank">קטלוג תמונות</a>
     </ul>
