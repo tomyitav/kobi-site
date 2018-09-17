@@ -17,7 +17,8 @@
     "test:coverage": "jest --coverage",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "ts:check": "tsc --noEmit"
+    "ts:check": "tsc --noEmit",
+    "now:deploy": "now && now alias"
   },
   "dependencies": {
     "classnames": "^2.2.5",
