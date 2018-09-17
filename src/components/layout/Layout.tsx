@@ -14,6 +14,7 @@ export class Layout extends React.Component<LayoutProps, {}> {
         #layout {
           direction: rtl;
           font-family: Arial;
+          overflow-x: hidden;
         }
         .navbar {
            width: 100%;

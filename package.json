@@ -69,6 +69,9 @@
     "typescript": "^3.0.1",
     "webpack-bundle-analyzer": "^2.11.2"
   },
+  "now": {
+    "alias": "kobiyitav"
+  },
   "jest": {
     "moduleFileExtensions": [
       "ts",
