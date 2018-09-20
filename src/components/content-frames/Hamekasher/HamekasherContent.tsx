@@ -8,6 +8,7 @@ export const HamekasherContent = () =>
         <li>תיאור הפרויקט: כ-260 יח"ד + מבנה לשימוש ציבורי</li>
         <li>קבלן מבצע עבודות חפירה ודיפון: גלנור בינוי ופיתוח בע"מ</li>
         <li>סטטוס הפרויקט: בביצוע עבודות חפירה ודיפון. שלב א' יושלם עד סוף שנת 2020</li>
+
         <br/>
-        <a href="https://photos.app.goo.gl/zgx1FaaA1Sqc5m126" target="_blank">קטלוג תמונות</a>
+        <a href="https://photos.app.goo.gl/GYcSZJR1YkYChSsB8" target="_blank">קטלוג תמונות</a>
     </ul>

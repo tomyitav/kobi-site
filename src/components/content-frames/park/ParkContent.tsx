@@ -14,4 +14,8 @@ export const ParkContent = props =>
         <li>קבלן מבצע: עומר הנדסה ובניה בע"מ</li>
         <li>סטטוס הפרויקט: התקבל טופס 4. נמצא בשלבי איכלוס</li>
 
+        <br />
+
+        <a href="https://photos.app.goo.gl/sa4RWBrA6dCTaYz76" target="_blank">קטלוג תמונות</a>
+
     </ul>
