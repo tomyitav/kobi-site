@@ -7,6 +7,7 @@ export const Footer = props =>
         footer {
             color: #9999b9;
             text-align: center;
+            margin-top: 4vh;
         }
       `}
         </style>
