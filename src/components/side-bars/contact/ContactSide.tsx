@@ -3,11 +3,16 @@ import * as React from 'react'
 export const ContactSide = () =>
     <ul className="contact-details">
         <style jsx>{`
-                    .contact-details
-                    {
-                        padding-right: 1.1rem;
-                    }
-                    `}
+            .contact-details
+            {
+                padding-right: 1.1rem;
+            }
+
+            #mail-content {
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        `}
         </style>
         <li id="mail-content">
                     <span> מייל:
