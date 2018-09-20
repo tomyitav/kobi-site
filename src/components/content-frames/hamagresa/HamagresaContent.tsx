@@ -14,4 +14,8 @@ export const HamagresaContent = () =>
         <li>היקף ביצוע: כ- 110 מליון ₪ + מע"מ</li>
         <li>סטטוס הפרויקט: נמצא בשלבי רישוי</li>
 
+        <br />
+
+        <a href="https://photos.app.goo.gl/m1UkXyEerCRqs7GW8" target="_blank">קטלוג תמונות</a>
+
     </ul>

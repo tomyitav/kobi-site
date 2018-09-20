@@ -2,6 +2,14 @@ import * as React from 'react'
 
 export const TeamContent = () =>
     <div className="row">
+        {/*language=PostCSS*/}
+        <style jsx>{`
+            .p-title
+            {
+                padding-right:1rem;
+            }
+        `}
+        </style>
         <div className="col-sm-8">
             <ul>
                 <li>ארקין אלי - מהנדס אזרחי</li>

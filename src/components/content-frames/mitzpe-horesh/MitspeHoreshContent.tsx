@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export const MitspeHoreshContent = props =>
+export const MitspeHoreshContent = () =>
     <ul>
 
         <li>יזם: חברת ISA</li>
@@ -13,8 +13,4 @@ export const MitspeHoreshContent = props =>
 
         <li>היקף ביצוע: כ-180 מיליון ש"ח</li>
         <li>הפרויקט נמצא בשלבי תכנון, תחילת ביצוע- אפריל 2019</li>
-
-        <br />
-
-        <a href="https://goo.gl/photos/HWybXgfZT5Gr8HK46" target="_blank">קטלוג תמונות</a>
     </ul>

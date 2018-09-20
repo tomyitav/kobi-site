@@ -1,20 +1,16 @@
 import * as React from 'react'
 
-export const MitspeContent = props =>
+export const MitspeContent = () =>
     <ul>
 
         <li>יזם: חברת ISA</li>
 
         <li>אדריכל הפרויקט:  י' קריבין</li>
 
-        <li>תיאור הפרויקט: 260 יח"ד, וכ-500 מ"ר שטחי מסחר</li>
+        <li>תיאור הפרויקט: 265 יח"ד, וכ-500 מ"ר שטחי מסחר</li>
 
         <li>פרויקט מגורים, במסגרת מחיר למשתכן, המשלב מחירת דירות לשוק החופשי</li>
 
         <li>היקף ביצוע: כ-210 מיליון ש"ח</li>
         <li>הפרויקט נמצא בשלבי תכנון. צפי תחילת ביצוע- ינואר 2019</li>
-
-        <br />
-
-        <a href="https://goo.gl/photos/HWybXgfZT5Gr8HK46" target="_blank">קטלוג תמונות</a>
     </ul>
