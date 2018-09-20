@@ -15,5 +15,5 @@ export const BaitHadashContent = () =>
 
         <br />
 
-        <a href="https://goo.gl/photos/HWybXgfZT5Gr8HK46" target="_blank">קטלוג תמונות</a>
+        <a href="https://photos.app.goo.gl/iMyq41kkbXT9wqZi6" target="_blank">קטלוג תמונות</a>
     </ul>
