@@ -16,6 +16,7 @@ export const ProjectsList = (props: ProjectsListProps) => {
 
                     .fa-li {
                         right: -2em;
+                        color: #7f56cd;
                     }
                     `}
             </style>
