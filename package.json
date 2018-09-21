@@ -18,7 +18,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "ts:check": "tsc --noEmit",
-    "now:deploy": "npm run build:dev && now && now alias"
+    "now:deploy": "now && now alias"
   },
   "dependencies": {
     "classnames": "^2.2.5",

@@ -18,14 +18,14 @@ export const ContactSide = () =>
             }
 
             #mail-content{
-                // overflow: hidden;
+                overflow: hidden;
                 text-overflow: ellipsis;
             }
         `}
         </style>
-        <li id="mail-content">
+        <li >
             <span className="fa-li"><i className="fas fa-envelope"></i></span>
-                    <a href="mailto:office1@yitav-eng.co.il"> office1@yitav-eng.co.il</a>
+                    <span id="mail-content"><a href="mailto:office1@yitav-eng.co.il">office1@yitav-eng.co.il</a></span>
         </li>
         <li>
             <span className="fa-li"><i className="fas fa-phone"></i></span>
