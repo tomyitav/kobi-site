@@ -13,6 +13,9 @@ export const ProjectsList = (props: ProjectsListProps) => {
                     {
                         padding-right: 1.1rem;
                     }
+                    .fa-ul {
+                        margin-left: 0;
+                    }
 
                     .fa-li {
                         right: -2em;
