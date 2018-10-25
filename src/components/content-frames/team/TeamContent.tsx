@@ -27,8 +27,8 @@ export const TeamContent = () =>
             </ul>
             <h2 className="p-title">הנהלה אדמיניסטרטיבית</h2>
             <ul>
-                <li>ענת קגנובסקי</li>
                 <li>אור שמע</li>
+                <li>ענת קגנובסקי</li>
                 <li>הילה פריטל</li>
             </ul>
             <br/>
