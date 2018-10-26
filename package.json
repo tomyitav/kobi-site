@@ -44,6 +44,7 @@
     "@types/enzyme": "^3.1.10",
     "@types/enzyme-adapter-react-16": "^1.0.2",
     "@types/jest": "^22.2.3",
+    "@types/next": "^6.1.1",
     "@types/node": "^8.10.14",
     "@types/react": "^16.3.14",
     "@types/react-redux": "^6.0.0",
