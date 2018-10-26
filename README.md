@@ -9,7 +9,7 @@ Source code project of Kobi Yitav company site, using:
 - Styled-jsx
 - Module css **(PostCSS - cssnext, nested, import)**
 - font-awesome@5
-- SEO & analytics(Google Analytics, Facebook Pixel
+- SEO & analytics (Google Analytics)
 
 ## Run :rocket:
 
