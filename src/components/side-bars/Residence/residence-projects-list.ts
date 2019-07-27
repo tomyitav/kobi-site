@@ -86,6 +86,18 @@ const residenceProjects: Array<SideProject> = [
         location: '/MishtakenYD'
     },
     {
+        name: "נתיב השדרה",
+        location: '/NativHashdera'
+    },
+    {
+        name: "מרומי הגבעה",
+        location: '/MeromeyHagiva'
+    },
+    {
+        name: "מצפה הראל",
+        location: '/MitzpeContent'
+    },
+    {
         name: 'ביתר עילית',
         location: '/Beitar'
     },
