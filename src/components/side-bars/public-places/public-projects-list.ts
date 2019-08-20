@@ -6,6 +6,10 @@ const publicPlacesProjects: Array<SideProject> = [
         location: '/Hamagresa'
     },
     {
+        name: "ביקור חולים",
+        location: '/BikurHolim'
+    },
+    {
         name: "מגדל הרכבת",
         location: '/MigdalRakevet'
     },
@@ -14,7 +18,7 @@ const publicPlacesProjects: Array<SideProject> = [
         location: '/Ofer'
     },
     {
-        name: "כלמוביל",
+        name: "פייר קנינג",
         location: '/Colmobil'
     },
     {

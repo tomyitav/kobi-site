@@ -4,21 +4,21 @@ import {ResidenceSide} from "../src/components/side-bars/Residence/ResidenceSide
 import {ContentLayout} from "../src/components/content-frames/content-layout/ContentLayout";
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
 import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics";
-import harelPics from "../src/components/header-image/carousel/carousel-pictures-lists/harel-pics";
-import {HarelContent} from "../src/components/content-frames/mitzpe-harel/HarelContent";
+import {MalhaContent} from "../src/components/content-frames/malha/MalhaContent";
+import malhaPics from "../src/components/header-image/carousel/carousel-pictures-lists/malha-pics";
 
-export default class MitzpeHarel extends React.Component {
+export default class Malha extends React.Component {
   render() {
     return (
       <Layout selectedLink="פרויקטים">
           <div>
-              <CarouselPics images={harelPics}/>
+              <CarouselPics images={malhaPics}/>
               <div className="row">
                   <SideBarLayout header="מגורים">
-                      <ResidenceSide selectedName="מצפה הראל"/>
+                      <ResidenceSide selectedName="מורדות מלחה"/>
                   </SideBarLayout>
-                  <ContentLayout header="מצפה הראל">
-                      <HarelContent/>
+                  <ContentLayout header="מורדות מלחה">
+                      <MalhaContent/>
                   </ContentLayout>
               </div>
           </div>

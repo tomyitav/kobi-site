@@ -45,10 +45,6 @@ const residenceProjects: Array<SideProject> = [
         name: "בית חדש",
         location: '/BaitHadash'
     },
-    {
-        name: "רסקו",
-        location: '/Rasco'
-    },
     // {
     //     name: "רמת השרון הירוקה",
     //     location: '/RamatHasharon'
@@ -95,7 +91,15 @@ const residenceProjects: Array<SideProject> = [
     },
     {
         name: "מצפה הראל",
-        location: '/MitzpeContent'
+        location: '/MitzpeHarel'
+    },
+    {
+        name: "מורדות מלחה",
+        location: '/Malha'
+    },
+    {
+        name: "מורשת מודיעין",
+        location: '/MoreshetModiin'
     },
     {
         name: 'ביתר עילית',
@@ -108,6 +112,10 @@ const residenceProjects: Array<SideProject> = [
     {
         name: "נופי בית וגן",
         location: '/Nofey'
+    },
+    {
+        name: "רסקו",
+        location: '/Rasco'
     },
 ]
 

@@ -1,9 +1,9 @@
 import * as React from 'react'
 
-export const MitzpeContent = () =>
+export const HarelContent = () =>
     <ul>
 
-        <li>יזם: ד. דניאל</li>
+        <li>יזם ISA</li>
 
         <li>אדריכל: דוד נגב</li>
 

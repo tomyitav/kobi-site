@@ -4,20 +4,20 @@ import {ContentLayout} from "../src/components/content-frames/content-layout/Con
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
 import {SimpleHeaderImage} from "../src/components/header-image/simple-header-image/SimpleHeaderImage";
 import {PublicSide} from "../src/components/side-bars/public-places/PublicSide";
-import {ColmobilContent} from "../src/components/content-frames/colmobil/ColmobilContent";
+import {HolimContent} from "../src/components/content-frames/bikur-holim/HolimContent";
 
-export default class Colmobil extends React.Component {
+export default class BikurHolim extends React.Component {
   render() {
     return (
-      <Layout selectedLink="פרויקטים ממשרד קודם">
+      <Layout selectedLink="פרויקטים">
           <div>
-              <SimpleHeaderImage location='/static/images/colmobil.PNG'/>
+              <SimpleHeaderImage location='/static/images/holim.png'/>
               <div className="row">
-                  <SideBarLayout header="מבני ציבור">
-                      <PublicSide selectedName="פייר קנינג"/>
+                  <SideBarLayout header="פרויקטים">
+                      <PublicSide selectedName="ביקור חולים"/>
                   </SideBarLayout>
-                  <ContentLayout header="פייר קנינג">
-                      <ColmobilContent/>
+                  <ContentLayout header="ביקור חולים">
+                      <HolimContent/>
                   </ContentLayout>
               </div>
           </div>
