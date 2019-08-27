@@ -106,6 +106,10 @@ const residenceProjects: Array<SideProject> = [
         location: '/DThree'
     },
     {
+        name: "מורדות גילה",
+        location: '/Gilo'
+    },
+    {
         name: 'ביתר עילית',
         location: '/Beitar'
     },
