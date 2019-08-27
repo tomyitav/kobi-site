@@ -102,6 +102,10 @@ const residenceProjects: Array<SideProject> = [
         location: '/MoreshetModiin'
     },
     {
+        name: "מתחם ד׳3",
+        location: '/DThree'
+    },
+    {
         name: 'ביתר עילית',
         location: '/Beitar'
     },
