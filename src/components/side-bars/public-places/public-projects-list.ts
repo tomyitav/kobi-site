@@ -10,6 +10,10 @@ const publicPlacesProjects: Array<SideProject> = [
         location: '/BikurHolim'
     },
     {
+        name: "מגדל רם",
+        location: '/Ram'
+    },
+    {
         name: "מגדל הרכבת",
         location: '/MigdalRakevet'
     },
