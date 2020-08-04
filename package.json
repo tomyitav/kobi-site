@@ -72,7 +72,8 @@
     "webpack-bundle-analyzer": "^2.11.2"
   },
   "now": {
-    "alias": "kobiyitav"
+    "alias": "kobiyitav",
+    "version": 2
   },
   "jest": {
     "moduleFileExtensions": [
