@@ -11,7 +11,7 @@ Source code project of Kobi Yitav company site, using:
 - font-awesome@5
 - SEO & analytics (Google Analytics)
 
-## Run :rocket:
+## Run  :rocket:
 
 
 ### :rocket: Development
