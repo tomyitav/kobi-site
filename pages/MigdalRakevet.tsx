@@ -14,9 +14,9 @@ export default class MigdalRakevet extends React.Component {
               <SimpleHeaderImage location='/static/images/rakevet.JPG'/>
               <div className="row">
                   <SideBarLayout header="מבני ציבור">
-                      <PublicSide selectedName="מגדל הרכבת"/>
+                      <PublicSide selectedName="מגדל מרום"/>
                   </SideBarLayout>
-                  <ContentLayout header="מגדל הרכבת">
+                  <ContentLayout header="מגדל מרום">
                       <MigdalRakevetContent/>
                   </ContentLayout>
               </div>

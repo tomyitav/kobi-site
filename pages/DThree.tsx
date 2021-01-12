@@ -15,9 +15,9 @@ export default class DThree extends React.Component {
               <CarouselPics images={d3Pics}/>
               <div className="row">
                   <SideBarLayout header="מגורים">
-                      <ResidenceSide selectedName="מתחם ד׳3"/>
+                      <ResidenceSide selectedName="נתיב ברמה - מתחם ד׳3"/>
                   </SideBarLayout>
-                  <ContentLayout header="מתחם ד׳3">
+                  <ContentLayout header="נתיב ברמה - מתחם ד׳3">
                       <DThreeContent/>
                   </ContentLayout>
               </div>

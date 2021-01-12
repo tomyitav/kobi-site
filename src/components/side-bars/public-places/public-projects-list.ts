@@ -6,24 +6,12 @@ const publicPlacesProjects: Array<SideProject> = [
         location: '/Hamagresa'
     },
     {
-        name: "ביקור חולים",
-        location: '/BikurHolim'
-    },
-    {
         name: "מגדל רם",
         location: '/Ram'
     },
     {
-        name: "מגדל הרכבת",
+        name: "מגדל מרום",
         location: '/MigdalRakevet'
-    },
-    {
-        name: "בית עופר",
-        location: '/Ofer'
-    },
-    {
-        name: "פייר קנינג",
-        location: '/Colmobil'
     },
     {
         name: "ישיבת תורת זאב",
