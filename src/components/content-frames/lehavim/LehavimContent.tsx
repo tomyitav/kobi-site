@@ -11,7 +11,7 @@ export const LehavimContent = () =>
 
         <li>היקף ביצוע: כ-250 מיליון ש"ח</li>
 
-        <li>קבלן מבצע: טרם נבחר</li>
+        <li>סטטוס ניהול: תיאום תכנון הושלם, כולל מכרז פנייה לקבלנים</li>
         <br />
 
         <a href="https://goo.gl/photos/ttmj2DRYdJwZk8yU6" target="_blank">קטלוג תמונות</a>

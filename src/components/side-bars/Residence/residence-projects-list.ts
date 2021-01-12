@@ -45,12 +45,8 @@ const residenceProjects: Array<SideProject> = [
         name: "בית חדש",
         location: '/BaitHadash'
     },
-    // {
-    //     name: "רמת השרון הירוקה",
-    //     location: '/RamatHasharon'
-    // },
     {
-        name: "גן העיר",
+        name: "זהב על הפארק",
         location: '/GanHair'
     },
     {
@@ -94,15 +90,11 @@ const residenceProjects: Array<SideProject> = [
         location: '/MitzpeHarel'
     },
     {
-        name: "מורדות מלחה",
-        location: '/Malha'
-    },
-    {
-        name: "מורשת מודיעין",
+        name: "מורשת מודיעין - טעמן",
         location: '/MoreshetModiin'
     },
     {
-        name: "מתחם ד׳3",
+        name: "נתיב ברמה - מתחם ד׳3",
         location: '/DThree'
     },
     {
@@ -112,18 +104,6 @@ const residenceProjects: Array<SideProject> = [
     {
         name: 'ביתר עילית',
         location: '/Beitar'
-    },
-    {
-        name: "שמאי 10 - גולדן היל",
-        location: '/GoldenHill'
-    },
-    {
-        name: "נופי בית וגן",
-        location: '/Nofey'
-    },
-    {
-        name: "רסקו",
-        location: '/Rasco'
     },
 ]
 
