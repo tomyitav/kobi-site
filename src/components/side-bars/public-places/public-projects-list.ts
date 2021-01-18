@@ -14,6 +14,10 @@ const publicPlacesProjects: Array<SideProject> = [
         location: '/MigdalRakevet'
     },
     {
+        name: "הוד ירושלים",
+        location: '/HodJerusalem'
+    },
+    {
         name: "ישיבת תורת זאב",
         location: '/ToratZeev'
     },

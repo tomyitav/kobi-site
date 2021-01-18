@@ -10,6 +10,18 @@ const hithadshutProjects: Array<SideProject> = [
         location: '/Tahun'
     },
     {
+        name: "גינות יובל",
+        location: '/GinotYovel'
+    },
+    {
+        name: "סן מרטין 3",
+        location: '/SanMartin'
+    },
+    {
+        name: "בוליביה 1",
+        location: '/Bolivia'
+    },
+    {
         name: "המקשר",
         location: '/Hamekasher'
     },
