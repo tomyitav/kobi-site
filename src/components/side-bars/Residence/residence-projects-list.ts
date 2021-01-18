@@ -22,6 +22,18 @@ const residenceProjects: Array<SideProject> = [
         location: '/Marom'
     },
     {
+        name: "בית ירושלמי",
+        location: '/JerusalemHouse'
+    },
+    {
+        name: "מגדל מעלה אדומים",
+        location: '/MigdalMaale'
+    },
+    {
+        name: "נתיב מורשת",
+        location: '/NativMoreshet'
+    },
+    {
         name: "בוטיק הנביאים",
         location: '/Butic'
     },
