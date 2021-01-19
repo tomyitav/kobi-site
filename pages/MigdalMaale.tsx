@@ -12,7 +12,7 @@ export default class MigdalMaale extends React.Component {
     return (
       <Layout selectedLink="פרויקטים">
           <div>
-              <SimpleHeaderImage location='/static/images/maromhadas.PNG'/>
+              <SimpleHeaderImage location='/static/images/MaaleAdumim.png'/>
               <div className="row">
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="מגדל מעלה אדומים"/>

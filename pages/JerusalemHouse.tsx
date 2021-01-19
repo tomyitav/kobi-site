@@ -7,13 +7,14 @@ import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBar
 import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics";
 import hatsrotPics from "../src/components/header-image/carousel/carousel-pictures-lists/hatsrot-pics";
 import {JerusalemHouseContent} from "../src/components/content-frames/jerusalem-house/JerusalemHouseContent";
+import {SimpleHeaderImage} from "../src/components/header-image/simple-header-image/SimpleHeaderImage";
 
 export default class JerusalemHouse extends React.Component {
   render() {
     return (
       <Layout selectedLink="פרויקטים">
           <div>
-              <CarouselPics images={hatsrotPics}/>
+              <SimpleHeaderImage location='/static/images/jerusalem-house.jpg'/>
               <div className="row">
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="בית ירושלמי"/>

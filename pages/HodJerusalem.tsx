@@ -6,13 +6,16 @@ import {PublicSide} from "../src/components/side-bars/public-places/PublicSide";
 import {MigdalRakevetContent} from "../src/components/content-frames/migdal-rakevet/MigdalRakevetContent";
 import {SimpleHeaderImage} from "../src/components/header-image/simple-header-image/SimpleHeaderImage";
 import {HodJerusalemContent} from "../src/components/content-frames/hod-jerusalem/HodJerusalemContent";
+import hatsrotPics from "../src/components/header-image/carousel/carousel-pictures-lists/hatsrot-pics";
+import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics";
+import hodJerusalemPics from "../src/components/header-image/carousel/carousel-pictures-lists/hod-jerusalem-pics";
 
 export default class HodJerusalem extends React.Component {
   render() {
     return (
       <Layout selectedLink="פרויקטים">
           <div>
-              <SimpleHeaderImage location='/static/images/rakevet.JPG'/>
+              <CarouselPics images={hodJerusalemPics}/>
               <div className="row">
                   <SideBarLayout header="מבני ציבור">
                       <PublicSide selectedName="הוד ירושלים"/>

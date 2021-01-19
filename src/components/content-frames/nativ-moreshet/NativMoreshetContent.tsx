@@ -12,4 +12,8 @@ export const NativMoreshetContent = props =>
         <li>היקף ביצוע - כ-84 מיליון ש"ח</li>
 
         <li>סטטוס הפרויקט: החלו עבודות חפירה ודיפון</li>
+
+    <br />
+
+    <a href="https://photos.app.goo.gl/dSE45N8qFYNPcK5J7" target="_blank">קטלוג תמונות</a>
     </ul>
