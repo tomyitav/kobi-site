@@ -16,7 +16,7 @@ export default class ToratZeev extends React.Component {
                   <SideBarLayout header="מבני ציבור">
                       <PublicSide selectedName="ישיבת תורת זאב"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="ישיבת תורת זאב">
                       <ToratZeevContent/>
                   </ContentLayout>
               </div>

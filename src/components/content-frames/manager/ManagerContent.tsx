@@ -2,7 +2,7 @@ import * as React from 'react'
 
 export const ManagerContent = () =>
     <div className="row">
-        <div className="col-sm-8">
+        <div className="col-md-6">
             <ul>
 
                 <li>בעל תואר ראשון (B.Sc) מהטכניון. סיום לימודים בשנת 1986</li>
@@ -19,8 +19,8 @@ export const ManagerContent = () =>
 
             </ul>
         </div>
-        <div className="col-sm-3">
-            <img src="/static/images/kobi2.PNG" className="img-fluid rounded"/>
+        <div className="col-md-5">
+            <img src="/static/images/kobi.jpg" className="img-fluid rounded"/>
             <br/>
         </div>
     </div>

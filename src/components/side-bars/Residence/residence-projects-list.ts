@@ -18,10 +18,6 @@ const residenceProjects: Array<SideProject> = [
         location: '/Park'
     },
     {
-        name: "מרום הדס",
-        location: '/Marom'
-    },
-    {
         name: "בית ירושלמי",
         location: '/JerusalemHouse'
     },
@@ -34,8 +30,24 @@ const residenceProjects: Array<SideProject> = [
         location: '/NativMoreshet'
     },
     {
+        name: "נתיב השדרה",
+        location: '/NativHashdera'
+    },
+    {
+        name: "נתיב ברמה - מתחם ד׳3",
+        location: '/DThree'
+    },
+    {
         name: "בוטיק הנביאים",
         location: '/Butic'
+    },
+    {
+        name: "מרום הדס",
+        location: '/Marom'
+    },
+    {
+        name: "מחיר למשתכן - קסטל אזורים",
+        location: '/Mishtaken'
     },
     {
         name: "מצפה רמות",
@@ -50,6 +62,10 @@ const residenceProjects: Array<SideProject> = [
         location: '/Horesh'
     },
     {
+        name: "מצפה הראל",
+        location: '/MitzpeHarel'
+    },
+    {
         name: "רמת דניה",
         location: '/RamatDenia'
     },
@@ -60,6 +76,10 @@ const residenceProjects: Array<SideProject> = [
     {
         name: "זהב על הפארק",
         location: '/GanHair'
+    },
+    {
+        name: "מרומי הגבעה",
+        location: '/MeromeyHagiva'
     },
     {
         name: 'מתחם מע"צ - הנביאים',
@@ -74,41 +94,14 @@ const residenceProjects: Array<SideProject> = [
         location: '/Rom'
     },
     {
-        name: "רפא",
-        location: '/Rafa'
-    },
-    {
-        name: "אלקבץ",
-        location: '/Elkabets'
-    },
-    {
-        name: "מחיר למשתכן - קסטל אזורים",
-        location: '/Mishtaken'
-    },
-    {
         name: "מחיר למשתכן - קסטל י.ד. ברזני",
         location: '/MishtakenYD'
-    },
-    {
-        name: "נתיב השדרה",
-        location: '/NativHashdera'
-    },
-    {
-        name: "מרומי הגבעה",
-        location: '/MeromeyHagiva'
-    },
-    {
-        name: "מצפה הראל",
-        location: '/MitzpeHarel'
     },
     {
         name: "מורשת מודיעין - טעמן",
         location: '/MoreshetModiin'
     },
-    {
-        name: "נתיב ברמה - מתחם ד׳3",
-        location: '/DThree'
-    },
+
     {
         name: "מורדות גילה",
         location: '/Gilo'
@@ -116,6 +109,14 @@ const residenceProjects: Array<SideProject> = [
     {
         name: 'ביתר עילית',
         location: '/Beitar'
+    },
+    {
+        name: "רפא",
+        location: '/Rafa'
+    },
+    {
+        name: "אלקבץ",
+        location: '/Elkabets'
     },
 ]
 

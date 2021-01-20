@@ -18,7 +18,7 @@ export default class SanMartin extends React.Component {
                   <SideBarLayout header="התחדשות עירונית">
                       <HithadshutSide selectedName="סן מרטין 3"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="סן מרטין 3">
                       <SanMartinContent/>
                   </ContentLayout>
               </div>

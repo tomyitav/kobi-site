@@ -20,7 +20,7 @@ export default class SanMartin extends React.Component {
                   <SideBarLayout header="התחדשות עירונית">
                       <HithadshutSide selectedName="גינות יובל"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="גינות יובל">
                       <GinotYovelContent/>
                   </ContentLayout>
               </div>

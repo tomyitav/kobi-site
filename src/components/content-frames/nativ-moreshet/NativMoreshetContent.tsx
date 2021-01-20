@@ -3,6 +3,7 @@ import * as React from 'react'
 export const NativMoreshetContent = props =>
     <ul>
 
+        <li>מיקום הפרויקט: שכונת מורשת, מגרש 120, מודיעין</li>
         <li>מזמין העבודה: נתיב פיתוח בע״מ</li>
 
         <li>אדריכל הפרויקט: לארי שטרנשיין אדריכלים בע"מ</li>

@@ -5,7 +5,7 @@ export const ContactSide = () =>
         <style jsx>{`
             .contact-details
             {
-                padding-right: 1.1rem;
+                padding-right: 2.1rem;
             }
 
             .fa-ul {

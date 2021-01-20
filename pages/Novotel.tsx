@@ -17,7 +17,7 @@ export default class Novotel extends React.Component {
                   <SideBarLayout header="מלונאות">
                       <HotelsSide selectedName="נובוטל ים המלח"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="נובוטל ים המלח">
                       <NovotelContent/>
                   </ContentLayout>
               </div>

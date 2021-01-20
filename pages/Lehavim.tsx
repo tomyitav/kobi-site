@@ -17,7 +17,7 @@ export default class Lehavim extends React.Component {
                   <SideBarLayout header="מבני ציבור">
                       <PublicSide selectedName="דיור מוגן להבים"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="דיור מוגן להבים">
                       <LehavimContent/>
                   </ContentLayout>
               </div>

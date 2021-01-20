@@ -10,9 +10,8 @@ export const TeamContent = () =>
             }
         `}
         </style>
-        <div className="col-sm-8">
+        <div className="col-md-5">
             <ul>
-                <li>בן דוד יובל -מנהל פרויקטים</li>
                 <li>בן שושן יהודה - הנדסאי אזרחי</li>
                 <li>ברוקר יונתן- מהנדס אזרחי</li>
                 <li>גוברמן אלכס - מהנדס אזרחי</li>
@@ -21,6 +20,7 @@ export const TeamContent = () =>
                 <li>דרקסלר פנחס - מהנדס אזרחי</li>
                 <li>הולץ משה- מהנדס אזרחי</li>
                 <li>וייסרוז אורי - מהנדס אזרחי</li>
+                <li>זרביב שלמה - מהנדס אזרחי</li>
                 <li>כהן מיכאל - מהנדס אזרחי</li>
                 <li>ליולקו יהודה - מהנדס אזרחי</li>
                 <li>ליס ארקדי - מהנדס אזרחי</li>
@@ -34,6 +34,7 @@ export const TeamContent = () =>
                 <li>שובל נופר - מהנדסת אזרחית ומנהלת תכנון</li>
                 <li>שלו אייל - מהנדס אזרחי</li>
                 <li>שניאור איתמר - מהנדס אזרחי</li>
+                <li>בן דוד יובל -מנהל פרויקטים</li>
                 <li>למברגר שאול, עו"ד- אחראי קידום רישוי ותהליכים סטטוטוריים</li>
             </ul>
             <h2 className="p-title">הנהלה אדמיניסטרטיבית</h2>
@@ -45,7 +46,7 @@ export const TeamContent = () =>
             <br/>
             <br/>
         </div>
-        <div className="col-sm-3">
-            <img src="/static/images/team.jpeg" className="img-fluid rounded"/>
+        <div className="col-md-6">
+            <img src="/static/images/team.jpeg" className="img-fluid rounded" width="550px"/>
         </div>
     </div>

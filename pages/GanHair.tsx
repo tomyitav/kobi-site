@@ -6,18 +6,19 @@ import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBar
 import {GanHairContent} from "../src/components/content-frames/gan-hair/GanHairContent";
 import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics";
 import ganHairPics from "../src/components/header-image/carousel/carousel-pictures-lists/gan-hair-pics";
+import {SimpleHeaderImage} from "../src/components/header-image/simple-header-image/SimpleHeaderImage";
 
 export default class GanHair extends React.Component {
   render() {
     return (
       <Layout selectedLink="פרויקטים">
           <div>
-              <CarouselPics images={ganHairPics}/>
+              <SimpleHeaderImage location='/static/images/zahav.png'/>
               <div className="row">
                   <SideBarLayout header="מגורים">
-                      <ResidenceSide selectedName="גן העיר"/>
+                      <ResidenceSide selectedName="זהב על הפארק"/>
                   </SideBarLayout>
-                  <ContentLayout header="גן העיר">
+                  <ContentLayout header="זהב על הפארק">
                       <GanHairContent/>
                   </ContentLayout>
               </div>

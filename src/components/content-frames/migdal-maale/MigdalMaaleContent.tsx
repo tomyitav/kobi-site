@@ -3,6 +3,7 @@ import * as React from 'react'
 export const MigdalMaaleContent = props =>
     <ul>
 
+            <li>מיקום הפרויקט: מעלה אדומים</li>
         <li>מזמין העבודה: חברת מימושים מגשימים פוטנציאל בע"מ</li>
 
         <li>אדריכל הפרויקט: לארי שטרנשיין אדריכלים בע"מ</li>

@@ -2,10 +2,6 @@ import {SideProject} from "../types/SideProject";
 
 const hithadshutProjects: Array<SideProject> = [
     {
-        name: "יובל גנים",
-        location: '/YuvalGanim'
-    },
-    {
         name: "טהון 4",
         location: '/Tahun'
     },
@@ -24,6 +20,10 @@ const hithadshutProjects: Array<SideProject> = [
     {
         name: "המקשר",
         location: '/Hamekasher'
+    },
+    {
+        name: "יובל גנים",
+        location: '/YuvalGanim'
     },
 ]
 
