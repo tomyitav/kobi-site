@@ -5,14 +5,14 @@ import {ContentLayout} from "../src/components/content-frames/content-layout/Con
 import {SideBarLayout} from "../src/components/side-bars/side-bar-layout/SideBarLayout";
 import {CarouselPics} from "../src/components/header-image/carousel/CarouselPics";
 import {MitspeContent} from "../src/components/content-frames/mitzpe-ela/MitspeContent";
-import homePics from "../src/components/header-image/carousel/carousel-pictures-lists/home-pics";
+import elaPics from "../src/components/header-image/carousel/carousel-pictures-lists/ela-pics";
 
 export default class Mishtaken extends React.Component {
   render() {
     return (
       <Layout selectedLink="פרויקטים">
           <div>
-              <CarouselPics images={homePics}/>
+              <CarouselPics images={elaPics}/>
               <div className="row">
                   <SideBarLayout header="מגורים">
                       <ResidenceSide selectedName="מצפה אלה"/>
