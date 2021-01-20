@@ -16,7 +16,7 @@ export default class Hevron extends React.Component {
                   <SideBarLayout header="מבני ציבור">
                       <PublicSide selectedName="ישיבת חברון"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="ישיבת חברון">
                       <HevronContent/>
                   </ContentLayout>
               </div>

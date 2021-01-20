@@ -2,16 +2,20 @@ import {SideProject} from "../types/SideProject";
 
 const publicPlacesProjects: Array<SideProject> = [
     {
-        name: "קסטל המגרסה",
-        location: '/Hamagresa'
-    },
-    {
         name: "מגדל רם",
         location: '/Ram'
     },
     {
         name: "מגדל מרום",
         location: '/MigdalRakevet'
+    },
+    {
+        name: "הוד ירושלים",
+        location: '/HodJerusalem'
+    },
+    {
+        name: "קסטל המגרסה",
+        location: '/Hamagresa'
     },
     {
         name: "ישיבת תורת זאב",

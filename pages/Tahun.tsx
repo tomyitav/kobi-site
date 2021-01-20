@@ -16,7 +16,7 @@ export default class Tahun extends React.Component {
                   <SideBarLayout header="התחדשות עירונית">
                       <HithadshutSide selectedName="טהון 4"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="טהון 4">
                       <TahunContent/>
                   </ContentLayout>
               </div>

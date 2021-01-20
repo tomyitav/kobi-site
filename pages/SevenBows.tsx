@@ -17,7 +17,7 @@ export default class SevenBows extends React.Component {
                   <SideBarLayout header="מלונאות">
                       <HotelsSide selectedName="מלון שבע הקשתות"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="מלון שבע הקשתות">
                       <SevenBowsContent/>
                   </ContentLayout>
               </div>

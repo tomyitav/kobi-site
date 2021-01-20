@@ -15,6 +15,7 @@ export class ContentLayout extends React.Component<ContentLayoutProps, {}> {
                 {
                     text-align: right;
                     border-right: 2px solid #6d6d95;
+                    font-size: 1.2rem;
                 }
                 ul {
                     margin-right: -1rem;

@@ -46,13 +46,13 @@ export const Nav = (props: NavbarProps) => {
                                     <Link href="/HatsrotHaneviim"><a className="dropdown-item">מגורים</a></Link>
                                 </li>
                                 <li>
-                                    <Link href="/YuvalGanim"><a className="dropdown-item">התחדשות עירונית</a></Link>
+                                    <Link href="/Tahun"><a className="dropdown-item">התחדשות עירונית</a></Link>
                                 </li>
                                 <li>
                                     <Link href="/SevenBows"><a className="dropdown-item">מלונאות</a></Link>
                                 </li>
                                 <li>
-                                    <Link href="/Hamagresa"><a className="dropdown-item">מבני ציבור ומשרדים</a></Link>
+                                    <Link href="/Ram"><a className="dropdown-item">מבני ציבור ומשרדים</a></Link>
                                 </li>
                             </ul>
                         </div>

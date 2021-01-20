@@ -17,7 +17,7 @@ export default class YuvalGanim extends React.Component {
                   <SideBarLayout header="התחדשות עירונית">
                       <HithadshutSide selectedName="יובל גנים"/>
                   </SideBarLayout>
-                  <ContentLayout header="פרטים">
+                  <ContentLayout header="יובל גנים">
                       <YuvalGanimContent/>
                   </ContentLayout>
               </div>

@@ -6,6 +6,7 @@ export const ContactContent = () =>
         <style jsx>{`
                     #mapContainer {
                         margin: 2%;
+                        width: 80%;
                     }
                     `}
         </style>
