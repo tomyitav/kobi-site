@@ -11,7 +11,7 @@ export default class Ram extends React.Component {
     return (
       <Layout selectedLink="פרויקטים">
           <div>
-              <SimpleHeaderImage location='/static/images/ram/ram.PNG'/>
+              <SimpleHeaderImage location='/static/images/ram/ram.png'/>
               <div className="row">
                   <SideBarLayout header="מגורים">
                       <PublicSide selectedName="מגדל רם"/>
