@@ -15,9 +15,9 @@ export default class Hamekasher extends React.Component {
               <CarouselPics images={hamekasherPics}/>
               <div className="row">
                   <SideBarLayout header="התחדשות עירונית">
-                      <HithadshutSide selectedName="המקשר"/>
+                      <HithadshutSide selectedName="המקשר שלב א"/>
                   </SideBarLayout>
-                  <ContentLayout header="המקשר">
+                  <ContentLayout header="המקשר שלב א">
                       <HamekasherContent />
                   </ContentLayout>
               </div>

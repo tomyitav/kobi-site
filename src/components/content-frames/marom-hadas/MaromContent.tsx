@@ -12,7 +12,7 @@ export const MaromContent = props =>
         <li>היקף ביצוע - כ-110 מיליון ש"ח</li>
 
         <li>קבלן מבצע: חברת ארלינגר</li>
-        <li>סטטוס הפרויקט: התקבל טופס 4. הפרויקט נמצא בשלבי איכלוס</li>
+        <li>סטטוס הפרויקט: הושלם ואוכלס</li>
         <br />
 
         <a href="https://goo.gl/photos/iwx8jAQ7jseiGnw39" target="_blank">קטלוג תמונות</a>

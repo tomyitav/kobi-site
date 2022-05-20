@@ -110,14 +110,6 @@ const residenceProjects: Array<SideProject> = [
         name: 'ביתר עילית',
         location: '/Beitar'
     },
-    {
-        name: "רפא",
-        location: '/Rafa'
-    },
-    {
-        name: "אלקבץ",
-        location: '/Elkabets'
-    },
 ]
 
 export default residenceProjects

@@ -18,7 +18,7 @@ const hithadshutProjects: Array<SideProject> = [
         location: '/Bolivia'
     },
     {
-        name: "המקשר",
+        name: "המקשר שלב א",
         location: '/Hamekasher'
     },
     {
