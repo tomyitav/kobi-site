@@ -17,7 +17,7 @@ export default class Hamekasher extends React.Component {
                   <SideBarLayout header="התחדשות עירונית">
                       <HithadshutSide selectedName="המקשר שלב א"/>
                   </SideBarLayout>
-                  <ContentLayout header="המקשר">
+                  <ContentLayout header="המקשר שלב א">
                       <HamekasherContent />
                   </ContentLayout>
               </div>
